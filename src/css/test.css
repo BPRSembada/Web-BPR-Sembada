@@ -1,0 +1,134 @@
+.newHeroHome {
+  margin-bottom: 5rem;
+  height: 80vh;
+}
+
+.car-hero-new {
+  height: 80vh;
+}
+.img-car-new {
+  height: 80vh;
+  width: 100%;
+}
+
+.car-hero-new .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* height: 20rem; */
+  width: 35rem;
+  padding: 1rem;
+  margin-bottom: 15%;
+}
+.car-hero-new .carousel-caption h3 {
+  text-align: start;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 920px) {
+  .newHeroHome {
+    margin-bottom: 5rem;
+    height: 60vh;
+  }
+
+  .car-hero-new {
+    height: 60vh;
+  }
+  .img-car-new {
+    height: 60vh;
+    width: 100%;
+  }
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* height: 20rem; */
+    width: 35rem;
+    padding: 1rem;
+    margin-bottom: 15%;
+  }
+  .carousel-caption h3 {
+    text-align: start;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .newHeroHome {
+    margin-bottom: 5rem;
+    height: 50vh;
+  }
+
+  .car-hero-new {
+    height: 50vh;
+  }
+  .img-car-new {
+    height: 50vh;
+    width: 100%;
+  }
+
+  .car-hero-new .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* height: 20rem; */
+    width: 25rem;
+    padding: 1rem;
+    margin-bottom: 15%;
+  }
+  .carousel-caption h3 {
+    text-align: start;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 556px) {
+  .newHeroHome {
+    margin-bottom: 5rem;
+    height: 40vh;
+  }
+
+  .car-hero-new {
+    height: 40vh;
+  }
+  .img-car-new {
+    height: 40vh;
+    width: 100%;
+  }
+
+  .car-hero-new .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* height: 20rem; */
+    width: 15rem;
+    padding: 1rem;
+    margin-bottom: 15%;
+  }
+  .carousel-caption h3 {
+    text-align: start;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .newHeroHome {
+    margin-bottom: 5rem;
+    height: 30vh;
+  }
+
+  .car-hero-new {
+    height: 30vh;
+  }
+  .img-car-new {
+    height: 30vh;
+    width: 100%;
+  }
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* height: 20rem; */
+    width: 10rem;
+    padding: 1rem;
+    margin-bottom: 8%;
+  }
+  .carousel-caption h3 {
+    text-align: start;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+}

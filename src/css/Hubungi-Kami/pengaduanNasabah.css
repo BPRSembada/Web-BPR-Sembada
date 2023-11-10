@@ -1,0 +1,167 @@
+.hero-section-pengaduan {
+  background-image: url("https://i.ibb.co/ZMZqJjY/pengaduan-nasabah.jpg");
+  background-size: 100% 100%;
+  background-position: 0 10%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.cont-pengaduan {
+  margin-inline: 6rem;
+  margin-block: 3rem;
+}
+.cont-cara-pengaduan {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.cont-cara-pengaduan div h2 {
+  color: #b50b0b;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.cont-cara-pengaduan div li {
+  font-size: 1.4rem;
+}
+
+.cont-cara-pengaduan img {
+  width: 25rem;
+  height: 26rem;
+  object-fit: cover;
+  object-position: center;
+}
+.cont-langkah-pengaduan {
+  background-image: url("../../assets/pengaduan-nasabah-tengah.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 25rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+}
+.cont-langkah-pengaduan h1 {
+  margin-block: auto;
+  color: #b50b0b;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.item-langkah-pengaduan {
+  margin-inline: 6rem;
+  margin-block: 3rem;
+}
+
+.form-pengaduan h2 {
+  margin-inline: 10rem;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #b50b0b;
+  /* margin-bottom: 0.2rem; */
+}
+
+.snk_pengaduan {
+  margin-inline: 8rem;
+}
+.snk_pengaduan th{
+  text-align: center;
+}
+
+@media (max-width: 1400px) {
+  .cont-pengaduan {
+    margin-inline: 3rem;
+  }
+  .snk_pengaduan {
+    margin-inline: 3rem;
+  }
+}
+@media (max-width: 1300px) {
+  .cont-pengaduan {
+    margin-inline: 3rem;
+  }
+}
+@media (max-width: 1200px) {
+  .cont-pengaduan {
+    margin-inline: 3rem;
+  }
+}
+@media (max-width: 992px) {
+  .cont-cara-pengaduan div h2 {
+    font-size: 2.2rem;
+  }
+  .cont-cara-pengaduan div li {
+    font-size: 1.2rem;
+  }
+  .cont-cara-pengaduan {
+    flex-direction: column;
+  }
+  .cont-cara-pengaduan img {
+    width: 100%;
+  }
+  .cont-langkah-pengaduan h1 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cont-cara-pengaduan div h2 {
+    font-size: 2.2rem;
+  }
+  .cont-cara-pengaduan {
+    flex-direction: column;
+  }
+  .cont-cara-pengaduan img {
+    width: 100%;
+  }
+  .cont-cara-pengaduan div li {
+    font-size: 1.2rem;
+  }
+
+  .cont-langkah-pengaduan h1 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .form-pengaduan h2 {
+    margin-inline: 2rem;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #b50b0b;
+  }
+
+  .snk_pengaduan {
+    margin-inline: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section-pengaduan {
+    height: 350px;
+  }
+
+  .cont-pengaduan {
+    margin-inline: 2rem;
+  }
+
+  .cont-cara-pengaduan {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .cont-cara-pengaduan div h2 {
+    font-size: 2rem;
+  }
+  .cont-cara-pengaduan div li {
+    font-size: 1rem;
+  }
+  .cont-langkah-pengaduan {
+    height: 15rem;
+  }
+  .cont-langkah-pengaduan h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .snk_pengaduan {
+    margin-inline: 1rem;
+  }
+}
