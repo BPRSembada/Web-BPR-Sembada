@@ -42,9 +42,10 @@ export const Kepedulian = [
     img: "../empatkeunggulan/Kepedulian/kepedulian1.jpeg",
   },
   {
-    title: "Bulan Inklusi Keuangan Bank Sembada : Akses keuangan merata, masyarakat sejahtera",
+    title:
+      "Bulan Inklusi Keuangan Bank Sembada : Akses keuangan merata, masyarakat sejahtera",
     desc: "Dalam rangka melaksanakan Bulan Inklusi Keuangan, Bank Sembada melaksanakan literasi keuangan dengan tema “Akses keuangan merata, masyarakat sejahtera”. Dengan fokus pada akses keuangan yang merata, Bank Sembada berupaya untuk mengurangi kesenjangan finansial, mendukung pertumbuhan ekonomi yang inklusif, sehingga menciptakan masyarakat yang lebih sejahtera. Melalui program-program edukasi, pelayanan yang ramah, serta inovasi teknologi keuangan, Bank Sembada berkomitmen untuk membantu masyarakat mendapatkan manfaat penuh dari sistem keuangan yang adil dan merata, sehingga mereka dapat membangun masa depan yang lebih cerah.",
-    img: "../empatkeunggulan/Kepedulian/BIK.jpg"
+    img: "../empatkeunggulan/Kepedulian/BIK.jpg",
   },
 ];
 export const Kolaborasi = [
@@ -80,17 +81,17 @@ export const Kolaborasi = [
 ];
 export const Testimonial = [
   {
-    title: "Charly - Pabrik gula merah Anamarga",
+    title: "Charly - Owner pabrik gula merah Anamarga",
     desc: "Bank Sembada adalah mitra yang luar biasa untuk usaha saya. Layanan marketing mereka luar biasa, dan yang lebih menarik adalah bunga kreditnya yang sangat bersaing. Kredit yang mereka berikan telah memberikan modal tambahan yang vital, mendorong perkembangan usaha saya agar lebih kompetitif di pasaran. Terima kasih, Bank Sembada, telah menjadi pendorong kesuksesan usaha saya!.",
     img: "../empatkeunggulan/Testimonial/charly.jpg",
   },
   {
-    title: "Lisa Susanto - PT Indo Veneer Utama",
+    title: "Lisa Susanto - Karyawan swasta",
     desc: "Terima kasih Bank Sembada, sudah selalu support kami dari awal dengan kemudahan dan cara kerja yg professional. Semoga selalu sukses.",
     img: "../empatkeunggulan/Testimonial/lisa-susanto-up.jpg",
   },
   {
-    title: "Sanny Tjoa - Pengusaha bisnis lukisan dan Frame",
+    title: "Sanny Tjoa - Owner UD Setia Jaya Frame",
     desc: "Pelayanan marketing dari Bank Sembada sungguh luar biasa, responsif dalam menyampaikan kabar terbaru terkait kredit, dan pemberian kredit yang mereka berikan telah memberikan tambahan modal yang sangat berarti bagi perkembangan usaha kami. Kami merasa senang dengan kerjasama ini dan berharap dapat terus berlanjut di masa mendatang.",
     img: "../empatkeunggulan/Testimonial/sanny-tjoa.jpg",
   },
@@ -101,17 +102,17 @@ export const Testimonial = [
   //   img: "../empatkeunggulan/Testimonial/anita-tanata.jpg",
   // },
   {
-    title: "Natasya",
+    title: "Natasya - Karyawan swasta",
     desc: "Terimakasih Bank Sembada telah memberikan pelayanan yang terbaik, saya merasa aman menempatkan dana saya di Bank Sembada karena dijamin LPS, funding officer nya ramah dan selalu siap melayani. Keuntungan lebih, bunganya sangat bersaing dengan bank lain.",
     img: "../empatkeunggulan/Testimonial/natasya.jpg",
   },
   {
-    title: "Dr. Nicholas Pratama",
+    title: "Dr. Nicholas Pratama - Dokter Rumah Sakit Carolus",
     desc: "Saya sangat terkesan dengan layanan Bank Sembada yang cekatan dan simpel. Selain mendapatkan keuntungan bunga deposito, dana saya aman, tidak ada rasa kuatir. Terimakasih atas layanan Bank Sembada, maju terus.",
     img: "../empatkeunggulan/Testimonial/nicholas-pratama.jpg",
   },
   {
-    title: "Anita Tanata",
+    title: "Anita Tanata - Karyawan swasta",
     desc: "Pengalaman pertama saya menempatkan deposito di Bank Sembada, proses cepat dan mudah, tidak berbelit-belit dan terjamin. Sukses terus Bank Sembada.",
     img: "../empatkeunggulan/Testimonial/katarina.jpg",
   },

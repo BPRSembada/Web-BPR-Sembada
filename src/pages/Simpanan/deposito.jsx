@@ -1,4 +1,4 @@
-import "../../css/Simpanan/deposito.css"
+import "../../css/Simpanan/deposito.css";
 import { Button, Accordion } from "react-bootstrap";
 import Icon from "@mdi/react";
 import {
@@ -7,6 +7,11 @@ import {
   mdiFinance,
 } from "@mdi/js";
 import KalkulatorDeposito from "../../component/KalkulatorDeposito";
+
+import { RiHandCoinLine } from "react-icons/ri";
+import { GiProgression } from "react-icons/gi";
+import { BiBadgeCheck } from "react-icons/bi";
+
 const Deposito = () => {
   return (
     <div>
@@ -52,6 +57,52 @@ const Deposito = () => {
           deposito dengan proses yang mudah dengan suku bunga menarik dan dapat
           digunakan sebagai jaminan kredit.
         </p>
+      </section>
+      <section className="keunggulan-produk">
+        <div className="container-keunggulan">
+          <h2>Keunggulan</h2>
+          <div className="container-cart-keunggulan">
+            <div className="cart-keunggulan">
+              <RiHandCoinLine className="react-icon" />
+              <h3>Setoran Awal Ringan</h3>
+              <p>
+                {" "}
+                Dengan{" "}
+                <span style={{ color: "red" }}>
+                  setoran dana hanya Rp 10.000,-
+                </span>{" "}
+                dapatkan kemudahan persyaratan pembukaan rekening tabungan dan
+                bertransaksi dengan buku tabungan.
+              </p>
+            </div>
+            <div className="cart-keunggulan">
+              <GiProgression className="react-icon" />
+              <h3>Menguntungkan</h3>
+              <p>
+                {" "}
+                Nikmati{" "}
+                <span style={{ color: "red" }}>
+                  {" "}
+                  suku bunga tinggi 3% p.a.{" "}
+                </span>
+                untuk seluruh nominal penempatan dana dan dapatkan layanan{" "}
+                <span style={{ color: "red" }}>
+                  <br />
+                  Safe Deposit Box
+                </span>{" "}
+                (sesuai ketentuan yang berlaku).
+              </p>
+            </div>
+            <div className="cart-keunggulan">
+              <BiBadgeCheck className="react-icon" />
+              <h3>Dikelola secara Profesional</h3>
+              <p>
+                Dana dikelola oleh SDM yang ahli dan handal di bidang layanan
+                keuangan.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       <div className="container1">

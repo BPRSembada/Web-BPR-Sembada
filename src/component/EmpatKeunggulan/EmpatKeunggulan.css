@@ -93,7 +93,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
-  /* background-color: aqua; */
+  /* background-color: rgb(40, 59, 59); */
 }
 .cont-cart-keunggulan h2 {
   margin-bottom: 1.5rem;
@@ -128,20 +128,66 @@
 }
 @media (max-width: 1400px) {
 }
-@media (max-width: 1300px) {
-}
-@media (max-width: 1200px) {
+
+@media (min-width: 993px) {
+  .cont-showCart {
+    /* background-color: #b50b0b; */
+    margin-inline: 2rem;
+  }
+  .cart-keunggulans {
+    width: 25rem;
+  }
+  .img-keunggulan {
+    height: 25rem;
+    object-position: center;
+  }
+  .slider-detail-card {
+    margin-inline: 2rem;
+  }
 }
 @media (max-width: 992px) {
+  .cont-showCart {
+    /* background-color: #b50b0b; */
+    margin-inline: 2rem;
+  }
+  .cart-keunggulans {
+    width: 25rem;
+  }
+  .img-keunggulan {
+    height: 25rem;
+    object-position: center;
+  }
+  .slider-detail-card {
+    margin-inline: 2rem;
+  }
 }
-@media (max-width: 768px) {
+@media (min-width: 800px) and (max-width: 901px) {
   .cont-showCart {
     /* background-color: #b50b0b; */
     margin-inline: 3rem;
-   
   }
   .cart-keunggulans {
     width: 20rem;
+  }
+  .img-keunggulan {
+    height: 20rem;
+    object-position: center;
+  }
+  .slider-detail-card {
+    margin-inline: 2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 799px) {
+  .cont-showCart {
+    /* background-color: #b50b0b; */
+    margin-inline: 3rem;
+  }
+  .cart-keunggulans {
+    width: 20rem;
+  }
+  .img-keunggulan {
+    height: 20rem;
+    object-position: center;
   }
   .slider-detail-card {
     margin-inline: 2rem;
@@ -150,11 +196,11 @@
 @media (max-width: 480px) {
   .cont-showCart {
     /* background-color: #b50b0b; */
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
   }
   .cart-keunggulans {
-    width: 20rem;
+    width: 23rem;
   }
   .slider-detail-card {
     margin-inline: 2rem;
@@ -164,12 +210,20 @@
   .cont-showCart {
     flex-direction: column;
     gap: 2rem;
-    margin-inline: 3rem;
+    /* margin-inline: 1rem; */
   }
   .cart-keunggulans {
-    width: 20rem;
+    width: 18rem;
   }
   .slider-detail-card {
     margin-inline: 2rem;
+  }
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    /* color: #b50b0b; */
+  }
+  .card-text {
+    font-size: 0.8rem;
   }
 }

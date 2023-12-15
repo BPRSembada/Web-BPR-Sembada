@@ -12,8 +12,8 @@ export const SDM = [
   },
   {
     Nama: "Sandi Brata Simanjuntak",
-    Jabatan: "Komisaris",
-    kategori: "Komisaris",
+    Jabatan: "Direktur Utama",
+    kategori: "Direksi",
     image: "https://i.ibb.co/fnqZjV9/sandibrata.jpg",
     profil: [
       "Alumni Master of Science International Banking & Finance – Edinburgh Napier University dan bergelar Sarjana Komputer - Universitas Bina Nusantara",
@@ -34,7 +34,7 @@ export const SDM = [
   },
   {
     Nama: "Meilia Kosasih",
-    Jabatan: "Ka.Bag Bisnis",
+    Jabatan: "Ka.Div Bisnis",
     kategori: "Kabag",
     image: "https://i.ibb.co/Qm2kkLB/meilia-kosasih.jpg",
     profil: [

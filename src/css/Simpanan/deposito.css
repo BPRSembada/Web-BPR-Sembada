@@ -12,7 +12,7 @@ hero deposito
   background-repeat: no-repeat;
   width: 100%;
   height: 80vh;
-  margin-top: 5rem;
+  margin-top: 3rem;
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
@@ -22,8 +22,8 @@ hero deposito
   margin: 5rem 5rem 0 0;
 }
 .table-deposito tbody,
-.table-deposito thead{
-  background: white;
+.table-deposito thead {
+  background: rgba(255, 255, 255, 0.5);
   border: 5px solid #b50b0b;
 }
 
@@ -51,9 +51,9 @@ fitur dan manfaat deposito
 }
 
 /* Accordion form */
-.site-fitur-manfaat-simpanan .accordion {
+/* .site-fitur-manfaat-simpanan .accordion {
   width: 50%;
-}
+} */
 
 @media (max-width: 1400px) {
   .fitur-manfaat-prasayart-deposito {
@@ -108,7 +108,6 @@ fitur dan manfaat deposito
 }
 
 @media (max-width: 768px) {
-  
   .fitur-manfaat-prasayart-deposito {
     flex-direction: column;
     align-items: center;
@@ -139,5 +138,30 @@ fitur dan manfaat deposito
     justify-content: center;
     padding-inline: 2rem;
     padding-block: 2rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 992px) {
+  .hero-img-tabungan {
+    margin-top: 2.8rem;
+    height: 30rem;
+  }
+  .table-deposito {
+    font-size: 0.8rem;
+    margin: 5rem 5rem 0 0;
+  }
+}
+@media (min-width: 360px) and (max-width: 480px) {
+  /* 
+  -----------------
+  hero sections
+  -----------------
+  */
+  .hero-img-tabungan {
+    margin-top: 2.6rem;
+    height: 20rem;
+  }
+  .table-deposito {
+    font-size: 0.7rem;
+    margin: 5rem 5rem 0 0;
   }
 }

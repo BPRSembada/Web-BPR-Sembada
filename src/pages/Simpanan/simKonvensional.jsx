@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import "../../css/Simpanan/simKonvensional.css";
 import { Button, Accordion } from "react-bootstrap";
 import Icon from "@mdi/react";
@@ -8,6 +9,9 @@ import {
 } from "@mdi/js";
 // kalkulator
 import KalkulatorSimpanan from "../../component/KalkulatorSimpanan";
+import { RiHandCoinLine } from "react-icons/ri";
+import { GiProgression } from "react-icons/gi";
+import { BiBadgeCheck } from "react-icons/bi";
 
 const SimpKonvensional = () => {
   return (
@@ -20,13 +24,60 @@ const SimpKonvensional = () => {
         data-aos-once="true"
       >
         <h2>Tabungan</h2>
+
         <p>
           Bank Sembada memberi solusi tabungan dengan kemudahan transaksi dan
           suku bunga yang menguntungkan, setoran dana dapat dilakukan melalui
           Bank di seluruh Indonesia.
         </p>
       </section>
-      <div className="container1">
+      <section className="keunggulan-produk">
+        <div className="container-keunggulan">
+          <h2>Keunggulan</h2>
+          <div className="container-cart-keunggulan">
+            <div className="cart-keunggulan">
+              <RiHandCoinLine className="react-icon" />
+              <h3>Setoran Awal Ringan</h3>
+              <p>
+                {" "}
+                Dengan{" "}
+                <span style={{ color: "red" }}>
+                  setoran dana hanya Rp 10.000,-
+                </span>{" "}
+                dapatkan kemudahan persyaratan pembukaan rekening tabungan dan
+                bertransaksi dengan buku tabungan.
+              </p>
+            </div>
+            <div className="cart-keunggulan">
+              <GiProgression className="react-icon" />
+              <h3>Menguntungkan</h3>
+              <p>
+                {" "}
+                Nikmati{" "}
+                <span style={{ color: "red" }}>
+                  {" "}
+                  suku bunga tinggi 3% p.a.{" "}
+                </span>
+                untuk seluruh nominal penempatan dana dan dapatkan layanan{" "}
+                <span style={{ color: "red" }}>
+                  <br />
+                  Safe Deposit Box
+                </span>{" "}
+                (sesuai ketentuan yang berlaku).
+              </p>
+            </div>
+            <div className="cart-keunggulan">
+              <BiBadgeCheck className="react-icon" />
+              <h3>Dikelola secara Profesional</h3>
+              <p>
+                Dana dikelola oleh SDM yang ahli dan handal di bidang layanan
+                keuangan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <div className="container1">
         <div className="cont-body">
           <div className="mid-container">
             <h2 data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
@@ -39,7 +90,8 @@ const SimpKonvensional = () => {
                 data-aos-duration="1000"
                 data-aos-once="true"
               >
-                <Icon path={mdiHandCoinOutline} size={4} className="icon" />
+                <Icon path={mdiHandCoinOutline} size={3} className="icon" />
+                <RiHandCoinLine className="react-icon" />
                 <h3>Setoran Awal Ringan</h3>
                 <p>
                   Dengan{" "}
@@ -58,7 +110,7 @@ const SimpKonvensional = () => {
                 data-aos-delay="300"
                 data-aos-once="true"
               >
-                <Icon path={mdiFinance} size={4} className="icon" />
+                <Icon path={mdiFinance} size={3} className="icon" />
                 <h3>Menguntungkan</h3>
                 <p>
                   {" "}
@@ -84,7 +136,7 @@ const SimpKonvensional = () => {
               >
                 <Icon
                   path={mdiCheckDecagramOutline}
-                  size={4}
+                  size={3}
                   className="icon"
                 />
                 <h3>Dikelola secara Profesional</h3>
@@ -96,7 +148,7 @@ const SimpKonvensional = () => {
             </section>
           </div>
         </div>
-      </div>
+      </div> */}
       <section className="fitur-manfaat-prasayart-simpanan">
         <div className="cont-fitur-manfaat-kiri">
           <div
@@ -112,7 +164,7 @@ const SimpKonvensional = () => {
               yang tersedia.
             </p>
             <div>
-              <Button variant="danger" href="./formSimpanan">
+              <Button variant="danger" href="./formSimpanan" className="Button-site-simpanan-kiri">
                 Buka Tabungan
               </Button>
             </div>

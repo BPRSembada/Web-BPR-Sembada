@@ -30,8 +30,17 @@ react Slick
 }
 
 @media (max-width: 768px) {
+  .cont-hero-home {
+    margin-top: 2rem;
+  }
 }
 @media (max-width: 480px) {
+  .cont-hero-home {
+    margin-top: 2rem;
+  }
 }
 @media (max-width: 360px) {
+  .cont-hero-home {
+    margin-top: 2rem;
+  }
 }

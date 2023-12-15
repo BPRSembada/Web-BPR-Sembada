@@ -11,7 +11,7 @@ hero simpanan konvensional
   background-repeat: no-repeat;
   width: 100%;
   height: 80vh;
-  margin-top: 5rem;
+  margin-top: 3rem;
   display: flex;
   align-items: center;
 }
@@ -57,6 +57,7 @@ deskripsi simpanan konvensional
 }
 .deskripsi-simpanan-konvensional p {
   font-size: 1.4rem;
+  font-weight: 600;
   text-align: center;
   /* padding-inline: 20rem; */
 }
@@ -65,31 +66,30 @@ deskripsi simpanan konvensional
 keunggulan produk simpanan dan features
 ---------------------------------------
 */
-.container1 {
+.keunggulan-produk {
+  margin-bottom: 6rem;
+}
+.container-keunggulan {
   display: flex;
   flex-direction: column;
-  margin-inline: 10%;
-  margin-bottom: 5rem;
-  /* background-color: #140909; */
+  align-items: center;
+  margin-inline: 13rem;
+  /* background-color: #ffc107; */
 }
 
-.cont-body {
-  display: flex;
-}
-
-.mid-container h2 {
+.container-keunggulan h2 {
   font-size: 2.4rem;
   text-align: center;
   color: #b50b0b;
   font-weight: 600;
+  margin-bottom: 3rem;
 }
-.featuress {
+.container-cart-keunggulan {
   display: flex;
-  justify-content: space-between;
-  padding: 2rem;
+  justify-content: space-around;
+  /* background-color: #b50b0b; */
 }
-
-.feature {
+.cart-keunggulan {
   flex-basis: calc(33.33% - 1rem);
   margin-bottom: 2rem;
   padding: 2rem;
@@ -99,35 +99,34 @@ keunggulan produk simpanan dan features
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
   transition: all 0.5s;
 }
-
-.feature:hover {
+.cart-keunggulan:hover {
   transform: translateY(-2px);
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.5);
 }
-
-.feature img {
-  width: 3rem;
-  height: 3rem;
-  margin: 2rem;
-}
-
-.feature h3 {
+.cart-keunggulan .react-icon {
+  font-size: 5rem;
   color: #b50b0b;
-  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.cart-keunggulan h3 {
+  color: #b50b0b;
+  font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
-
-.feature p {
+.cart-keunggulan p {
   font-size: 1.1rem;
+  font-weight: 600;
 }
-.feature i {
+
+.cart-keunggulan i {
   font-size: 0.8rem;
 }
 
-.icon-simkon {
+/* .icon-simkon {
   color: #b50b0b;
-}
+} */
+
 /* 
 ----------------------------------------
 section fitur-manfaat-prasyrat simpanan
@@ -166,69 +165,16 @@ section fitur-manfaat-prasyrat simpanan
   gap: 1rem;
   color: white;
 }
+.site-fitur-manfaat-simpanan h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+}
 .site-fitur-manfaat-simpanan p {
   margin: 0;
   font-size: 1.1rem;
   color: white;
-}
-.site-fitur-manfaat-simpanan h3 {
-  margin: 0;
-  font-weight: 600;
-  color: white;
-  font-size: 2rem;
-}
-.cont-fitur-manfaat-kanan {
-  flex-basis: 50%;
-  /* background-color: aqua; */
-}
-
-.cont-fitur-manfaat-kanan .accordion-button {
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-
-.site-prasarat-simpanan {
-  background-color: rgba(255, 255, 255);
-  padding-inline: 3rem;
-  border-radius: 1rem;
-  padding-block: 3rem;
-  width: 35rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-.site-prasarat-simpanan h3 {
-  margin: 0;
-  /* color: #b50b0b; */
-  font-size: 1.6rem;
-  font-weight: 600;
-}
-
-.site-prasarat-simpanan p {
-  font-size: 1rem;
-  /* font-weight: 600; */
-}
-
-.site-prasarat-simpanan span {
-  color: blue;
-}
-
-.site-prasarat-simpanan ol {
-  text-align: left;
-}
-
-.site-prasarat-simpanan li {
-  margin-bottom: 0.3rem;
-  font-size: 1.1rem;
-}
-.cont-fitur-manfaat-kanan .accordion .accordion-button {
-  font-size: 1rem;
-  font-weight: 600;
-}
-.cont-fitur-manfaat-kanan .site-prasarat-simpanan .accordion .accordion-button {
-  font-size: 1rem;
-  font-weight: 600;
-  /* color: #b50b0b; */
 }
 
 /* css accordion download form */
@@ -243,10 +189,6 @@ section fitur-manfaat-prasyrat simpanan
 .form-pembukaan h5 {
   color: black;
   font-weight: 600;
-}
-
-.site-fitur-manfaat-simpanan .accordion {
-  width: 50%;
 }
 
 .fitur-manfaat-prasayart-simpanan .accordion-button {
@@ -275,340 +217,107 @@ section fitur-manfaat-prasyrat simpanan
   border: solid black 1px;
 }
 
+/* _____________________________________ */
+.cont-fitur-manfaat-kanan {
+  flex-basis: 50%;
+  /* background-color: aqua; */
+}
+
+.cont-fitur-manfaat-kanan .accordion-button {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.site-prasarat-simpanan {
+  background-color: rgba(255, 255, 255);
+  padding-inline: 3rem;
+  border-radius: 1rem;
+  padding-block: 3rem;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.site-prasarat-simpanan h3 {
+  margin: 0;
+  /* color: #b50b0b; */
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.site-prasarat-simpanan p {
+  font-size: 1.1rem;
+  /* font-weight: 600; */
+}
+
+/* span untuk deposito */
+.site-prasarat-simpanan span {
+  color: blue;
+}
+
+.site-prasarat-simpanan ol {
+  text-align: left;
+}
+
+.site-prasarat-simpanan li {
+  margin-bottom: 0.3rem;
+  font-size: 1.1rem;
+}
+.cont-fitur-manfaat-kanan .accordion .accordion-button {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.cont-fitur-manfaat-kanan .site-prasarat-simpanan .accordion .accordion-button {
+  font-size: 1rem;
+  font-weight: 600;
+  /* color: #b50b0b; */
+}
+
 /* 
 ----------------------------------------------
 Adjust hero section height for smaller screens
 ----------------------------------------------
 */
-@media (max-width: 1400px) {
-  .hero-section-simkon {
-    width: auto;
-    margin-right: 15rem;
+
+.calkulator-simpanan {
+  margin-inline: auto;
+  margin-block: 3rem;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* 
+  ---------------
+  hero sections
+  ---------------
+  */
+  .hero-img-simkon {
+    margin-top: 3rem;
+    height: 32rem;
   }
-  .hero-img-simkon h1 {
+  /* 
+  -------------------
+  new cart Keunggulan
+  -------------------
+  */
+  .container-keunggulan {
+    margin-inline: 2.5rem;
+  }
+  .container-keunggulan h2 {
     font-size: 2.2rem;
   }
-  .hero-img-simkon p {
-    font-size: 1.1rem;
+  .container-cart-keunggulan {
+    justify-content: space-around;
   }
-  /* 
-    ------------------
-    deskripsi simpanan
-    ------------------
-    */
-  .deskripsi-simpanan-konvensional {
-    margin-inline: 9rem;
-    margin-block: 3rem;
+  .cart-keunggulan .react-icon {
+    font-size: 4rem;
   }
-  .deskripsi-simpanan-konvensional h1 {
-    font-size: 1.9rem;
-  }
-  .deskripsi-simpanan-konvensional p {
-    font-size: 1.1rem;
-  }
-  /* 
-    ---------------
-    container body
-    ---------------
-    */
-
-  .mid-container h1 {
-    font-size: 2rem;
-  }
-
-  .feature {
-    flex-basis: calc(33.33% - 1rem);
-  }
-  .features {
-    padding: 2rem;
-  }
-  /* 
-    ---------------------------
-    fitur prasyarat dan manfaat
-    ---------------------------
-    */
-  .fitur-manfaat-prasayart-simpanan {
-    width: 100%;
-    padding-block: 3rem;
-    /* background-color: #b50b0b; */
-    display: flex;
-    /* flex-direction: co; */
-    align-items: center;
-    gap: 5rem;
-  }
-  .cont-fitur-manfaat-kiri {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    flex-basis: 50%;
-    align-items: flex-end;
-  }
-  .site-fitur-manfaat-simpanan {
-    background-color: rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-direction: column;
-    width: 30rem;
-    padding-inline: 2.5rem;
-    padding-block: 2rem;
-    gap: 0.5rem;
-    color: white;
-  }
-  .site-fitur-manfaat-simpanan p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: white;
-  }
-  .site-fitur-manfaat-simpanan h1 {
-    margin: 0;
-    font-weight: 600;
-    color: white;
-    font-size: 1.2rem;
-  }
-  .cont-fitur-manfaat-kanan {
-    flex-basis: 50%;
-    /* background-color: aqua; */
-  }
-  .site-prasarat-simpanan {
-    background-color: rgba(255, 255, 255);
-    padding-inline: 3rem;
-    border-radius: 1rem;
-    padding-block: 3rem;
-    width: 30rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .site-prasarat-simpanan h1 {
-    margin: 0;
-    /* color: #b50b0b; */
-    font-size: 1.5rem;
+  .cart-keunggulan h3 {
+    font-size: 1.8rem;
     font-weight: 600;
   }
-
-  .site-prasarat-simpanan ol {
-    text-align: left;
-    font-size: 0.9rem;
-  }
-
-  .site-prasarat-simpanan li {
-    margin-bottom: 0.3rem;
-  }
-}
-@media (max-width: 1300px) {
-  .container1 {
-    display: flex;
-    flex-direction: column;
-    margin-inline: 5%;
-    margin-bottom: 5rem;
-    /* background-color: #140909; */
-  }
-  .fitur-manfaat-prasayart-simpanan {
-    width: 100%;
-    padding-inline: 2rem;
-    padding-block: 5rem;
-    /* background-color: #b50b0b; */
-    display: flex;
-    align-items: center;
-    gap: 2.5rem;
-  }
-}
-@media (max-width: 1200px) {
-  .container1 {
-    display: flex;
-    flex-direction: column;
-    margin-inline: 5%;
-    margin-bottom: 5rem;
-    /* background-color: #140909; */
-  }
-  .fitur-manfaat-prasayart-simpanan {
-    width: 100%;
-    padding-inline: 2rem;
-    padding-block: 5rem;
-    /* background-color: #b50b0b; */
-    display: flex;
-    align-items: center;
-    gap: 2.5rem;
-  }
-}
-
-@media (max-width: 992px) {
-  .hero-section-simkon {
-    width: auto;
-    margin-right: 10rem;
-  }
-  /* 
-  ------------------
-  deskripsi simpanan
-  ------------------
-  */
-  .deskripsi-simpanan-konvensional {
-    margin-inline: 5rem;
-    margin-block: 3rem;
-  }
-  .deskripsi-simpanan-konvensional h2 {
-    font-size: 2.8rem;
-  }
-  .deskripsi-simpanan-konvensional p {
-    font-size: 1.2rem;
-  }
-  /* 
-  ---------------
-  container body
-  ---------------
-  */
-  .container1 {
-    margin-inline: 25%;
-  }
-  .mid-container h2 {
-    font-size: 2, 2rem;
-  }
-  .cont-body {
-    flex-direction: column;
-  }
-
-  .featuress {
-    flex-direction: column;
-  }
-  .feature {
-    flex-basis: calc(50% - 1rem);
-  }
-  .featuress .feature h3 {
-    font-size: 1.8rem;
-  }
-
-  .featuress .feature p {
-    font-size: 1rem;
-  }
-
-  /* 
-  ---------------------------
-  fitur prasyarat dan manfaat
-  ---------------------------
-  */
-  .fitur-manfaat-prasayart-simpanan {
-    width: 100%;
-    padding-inline: 2rem;
-    padding-block: 5rem;
-    /* background-color: #b50b0b; */
-    display: flex;
-    align-items: center;
-    gap: 2.5rem;
-  }
-  .cont-fitur-manfaat-kiri {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    flex-basis: 50%;
-    align-items: flex-end;
-  }
-  .site-fitur-manfaat-simpanan {
-    background-color: rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-direction: column;
-    width: 25rem;
-    padding-inline: 2.5rem;
-    padding-block: 2rem;
-    gap: 0.5rem;
-    color: white;
-  }
-  .site-fitur-manfaat-simpanan p {
-    margin: 0;
-    font-size: 1rem;
-    color: white;
-  }
-  .site-fitur-manfaat-simpanan h3 {
-    margin: 0;
-    font-weight: 600;
-    color: white;
-    font-size: 1.8rem;
-  }
-  .cont-fitur-manfaat-kanan {
-    flex-basis: 50%;
-    /* background-color: aqua; */
-  }
-  .site-prasarat-simpanan h3 {
-    font-size: 1.8rem;
-  }
-  .site-prasarat-simpanan li {
-    font-size: 1rem;
-  }
-  .site-prasarat-simpanan {
-    background-color: rgba(255, 255, 255);
-    padding-inline: 3rem;
-    border-radius: 1rem;
-    padding-block: 3rem;
-    width: 25rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .site-prasarat-simpanan ol {
-    text-align: left;
-    font-size: 0.9rem;
-  }
-
-  .site-prasarat-simpanan li {
-    margin-bottom: 0.3rem;
-  }
-}
-
-@media (max-width: 768px) {
-  /* 
-  ---------------------
-  hero section simpanan
-  ---------------------
-  */
-  .hero-section-simkon {
-    width: auto;
-    /* height: 25vh; */
-    margin-right: 2rem;
-  }
-  .hero-img-simkon h1 {
-    font-size: 2.8rem;
-  }
-  .hero-img-simkon p {
-    font-size: 1.2rem;
-  }
-  /* 
-  ------------------
-  deskripsi simpanan
-  ------------------
-  */
-  .deskripsi-simpanan-konvensional {
-    margin-inline: 2rem;
-    margin-block: 3rem;
-  }
-  .deskripsi-simpanan-konvensional h2 {
-    font-size: 2.2rem;
-  }
-  .deskripsi-simpanan-konvensional p {
+  .cart-keunggulan p {
     font-size: 1.1rem;
-  }
-  /* 
-  ---------------
-  container body
-  ---------------
-  */
-
-  .mid-container h2 {
-    font-size: 2.2rem;
-  }
-  .cont-body {
-    flex-direction: column;
-  }
-
-  .featuress {
-    flex-direction: column;
-  }
-  .featuress h3 {
-    font-size: 1.9rem;
-  }
-  .featuress p {
-    font-size: 1.2rem;
-  }
-  .feature {
-    flex-basis: calc(50% - 1rem);
+    font-weight: 600;
   }
   /* 
   ---------------------------
@@ -616,20 +325,24 @@ Adjust hero section height for smaller screens
   ---------------------------
   */
   .fitur-manfaat-prasayart-simpanan {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     padding-inline: 1.5rem;
     padding-block: 5rem;
   }
   .cont-fitur-manfaat-kiri {
-    width: 80%;
     align-items: center;
   }
   .site-fitur-manfaat-simpanan {
     width: 100%;
   }
-
+  .site-fitur-manfaat-simpanan Button {
+    font-size: 1rem;
+  }
+  .site-fitur-manfaat-simpanan .Button-site-simpanan-kiri {
+    font-size: 1rem;
+  }
   .cont-fitur-manfaat-kanan {
     width: 80%;
     display: flex;
@@ -645,39 +358,235 @@ Adjust hero section height for smaller screens
     font-weight: 600;
   }
   .site-fitur-manfaat-simpanan p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .cont-fitur-manfaat-kanan h3 {
     font-size: 1.8rem;
     font-weight: 600;
   }
   .cont-fitur-manfaat-kanan li {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
-@media (max-width: 480px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   /* 
-  ---------------------
-  hero section simpanan
-  ---------------------
+  ---------------
+  hero sections
+  ---------------
   */
-  .hero-section-simkon {
-    width: auto;
-    margin-right: 1.5rem;
-  }
-  .hero-img-simkon h1 {
-    font-size: 2.5rem;
-  }
-  .hero-img-simkon p {
-    font-size: 1.1rem;
+  .hero-img-simkon {
+    margin-top: 3rem;
+    height: 28rem;
   }
   /* 
-  ------------------
-  deskripsi simpanan
-  ------------------
+  --------------------------------
+  deskripsi simpanan konvensional
+  --------------------------------
   */
   .deskripsi-simpanan-konvensional {
+    margin-inline: 1rem;
+    margin-block: 3rem;
+  }
+  .deskripsi-simpanan-konvensional h2 {
+    font-size: 2rem;
+  }
+  .deskripsi-simpanan-konvensional p {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  /* 
+  -------------------
+  new cart Keunggulan
+  -------------------
+  */
+  .container-keunggulan {
     margin-inline: 2rem;
+  }
+  .container-keunggulan h2 {
+    font-size: 2rem;
+  }
+  .container-cart-keunggulan {
+    justify-content: space-around;
+  }
+  .cart-keunggulan .react-icon {
+    font-size: 4rem;
+  }
+  .cart-keunggulan h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .cart-keunggulan p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-simpanan {
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1.5rem;
+    padding-block: 5rem;
+  }
+  .cont-fitur-manfaat-kiri {
+    align-items: center;
+  }
+  .site-fitur-manfaat-simpanan {
+    width: 100%;
+  }
+  .site-fitur-manfaat-simpanan Button {
+    font-size: 1rem;
+  }
+  .site-fitur-manfaat-simpanan .Button-site-simpanan-kiri {
+    font-size: 1rem;
+  }
+  .cont-fitur-manfaat-kanan {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .site-prasarat-simpanan {
+    width: 100%;
+    padding: 1.2rem;
+  }
+  .site-fitur-manfaat-simpanan h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .site-fitur-manfaat-simpanan p {
+    font-size: 1rem;
+  }
+  .cont-fitur-manfaat-kanan h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .cont-fitur-manfaat-kanan li {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* 
+  ---------------
+  hero sections
+  ---------------
+  */
+  .hero-img-simkon {
+    margin-top: 2.6rem;
+    height: 23rem;
+  }
+  /* 
+  --------------------------------
+  deskripsi simpanan konvensional
+  --------------------------------
+  */
+  .deskripsi-simpanan-konvensional {
+    /* background-color: #b50b0b; */
+    margin-inline: 1rem;
+    margin-block: 3rem;
+  }
+  .deskripsi-simpanan-konvensional h2 {
+    font-size: 2rem;
+  }
+  .deskripsi-simpanan-konvensional p {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  /* 
+  -------------------
+  new cart Keunggulan
+  -------------------
+  */
+  .container-keunggulan {
+    margin-inline: 2rem;
+  }
+  .container-keunggulan h2 {
+    font-size: 2rem;
+  }
+  .container-cart-keunggulan {
+    gap: 1rem;
+  }
+  .cart-keunggulan .react-icon {
+    font-size: 4rem;
+  }
+  .cart-keunggulan h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .cart-keunggulan p {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-simpanan {
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1.5rem;
+    padding-block: 5rem;
+  }
+  .cont-fitur-manfaat-kiri {
+    align-items: center;
+  }
+  .site-fitur-manfaat-simpanan {
+    width: 100%;
+  }
+  .site-fitur-manfaat-simpanan Button {
+    font-size: 0.8rem;
+  }
+  .site-fitur-manfaat-simpanan .Button-site-simpanan-kiri {
+    font-size: 0.8rem;
+  }
+  .cont-fitur-manfaat-kanan {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .site-prasarat-simpanan {
+    width: 100%;
+    padding: 1.2rem;
+  }
+  .site-fitur-manfaat-simpanan h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .site-fitur-manfaat-simpanan p {
+    font-size: 0.8rem;
+  }
+  .cont-fitur-manfaat-kanan h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .cont-fitur-manfaat-kanan li {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* 
+  ---------------
+  hero sections
+  ---------------
+  */
+  .hero-img-simkon {
+    margin-top: 2.3rem;
+    height: 23rem;
+  }
+  /* 
+  --------------------------------
+  deskripsi simpanan konvensional
+  --------------------------------
+  */
+  .deskripsi-simpanan-konvensional {
+    /* background-color: #b50b0b; */
+    margin-inline: 1rem;
     margin-block: 3rem;
   }
   .deskripsi-simpanan-konvensional h2 {
@@ -685,37 +594,31 @@ Adjust hero section height for smaller screens
   }
   .deskripsi-simpanan-konvensional p {
     font-size: 1rem;
+    font-weight: 600;
   }
   /* 
-  ---------------
-  container body
-  ---------------
+  -------------------
+  new cart Keunggulan
+  -------------------
   */
-  .container1 {
-    margin-inline: 2%;
+  .container-keunggulan {
+    margin-inline: 2rem;
   }
 
-  .cont-body {
-    flex-direction: column;
-  }
-
-  .mid-container h2 {
+  .container-keunggulan h2 {
     font-size: 2rem;
   }
-
-  .featuress {
+  .container-cart-keunggulan {
     flex-direction: column;
+    gap: 1rem;
   }
-  .feature {
-    flex-basis: calc(50% - 1rem);
-  }
-
-  .feature h3 {
+  .cart-keunggulan h3 {
     font-size: 1.5rem;
+    font-weight: 600;
   }
-
-  .feature p {
+  .cart-keunggulan p {
     font-size: 1rem;
+    font-weight: 600;
   }
   /* 
   ---------------------------
@@ -770,8 +673,104 @@ Adjust hero section height for smaller screens
     font-weight: 600;
   }
 }
-
-.calkulator-simpanan {
-  margin-inline: auto;
-  margin-block: 3rem;
+@media (min-width: 360px) and (max-width: 479px) {
+  .hero-img-simkon {
+    margin-top: 2.6rem;
+    height: 20rem;
+  }
+  .container1 {
+    margin-inline: 2%;
+  }
+  /* 
+  --------------------------------
+  deskripsi simpanan konvensional
+  --------------------------------
+  */
+  .deskripsi-simpanan-konvensional {
+    /* background-color: #b50b0b; */
+    margin-inline: 1rem;
+    margin-block: 3rem;
+  }
+  .deskripsi-simpanan-konvensional h2 {
+    font-size: 2rem;
+  }
+  .deskripsi-simpanan-konvensional p {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  /* 
+  ---------------------------------
+  new cart keunggulan
+  ---------------------------------
+  */
+  .container-keunggulan {
+    margin-inline: 1.5rem;
+  }
+  .container-keunggulan h2 {
+    font-size: 2rem;
+  }
+  .container-cart-keunggulan {
+    flex-direction: column;
+    gap: 0.5 rem;
+  }
+  .cart-keunggulan h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .cart-keunggulan p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-simpanan {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+  }
+  .cont-fitur-manfaat-kiri {
+    /* background-color: #b50b0b; */
+    width: 100%;
+  }
+  .site-fitur-manfaat-simpanan {
+    width: 100%;
+    /* background-color: red; */
+  }
+  .site-fitur-manfaat-simpanan h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .site-fitur-manfaat-simpanan p {
+    font-size: 1rem;
+  }
+  .cont-fitur-manfaat-kanan {
+    width: 100%;
+  }
+  .site-prasarat-simpanan {
+    width: 100%;
+    padding: 1rem;
+  }
+  .site-prasarat-simpanan h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .site-prasarat-simpanan li {
+    font-size: 1rem;
+  }
+  .cont-fitur-manfaat-kanan .accordion .accordion-button {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .fitur-manfaat-prasayart-simpanan
+    .cont-fitur-manfaat-kanan
+    .accordion
+    .accordion-button {
+    font-size: 1rem;
+    font-weight: 600;
+  }
 }
