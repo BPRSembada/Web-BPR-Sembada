@@ -39,6 +39,7 @@ deskripsi kredi modal kerja
 
 .deskripsi-kedit-kerja p {
   font-size: 1.4rem;
+  font-weight: 600;
   text-align: center;
   /* padding-inline: 20rem; */
 }
@@ -48,6 +49,8 @@ deskripsi kredi modal kerja
 fitur manfaat dan syarat kredit
 --------------------------------
 */
+
+/* Keunggulan produk ada di simkonvensional.css */
 .fitur-manfaat-prasayart-kredit {
   background-image: url(/src/assets/kredit-kerja.jpg);
   background-repeat: no-repeat;

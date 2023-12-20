@@ -1,12 +1,6 @@
 import React, { useEffect } from "react";
 import "../../css/Simpanan/simKonvensional.css";
 import { Button, Accordion } from "react-bootstrap";
-import Icon from "@mdi/react";
-import {
-  mdiFinance,
-  mdiHandCoinOutline,
-  mdiCheckDecagramOutline,
-} from "@mdi/js";
 // kalkulator
 import KalkulatorSimpanan from "../../component/KalkulatorSimpanan";
 import { RiHandCoinLine } from "react-icons/ri";
@@ -39,7 +33,6 @@ const SimpKonvensional = () => {
               <RiHandCoinLine className="react-icon" />
               <h3>Setoran Awal Ringan</h3>
               <p>
-                {" "}
                 Dengan{" "}
                 <span style={{ color: "red" }}>
                   setoran dana hanya Rp 10.000,-
@@ -164,7 +157,11 @@ const SimpKonvensional = () => {
               yang tersedia.
             </p>
             <div>
-              <Button variant="danger" href="./formSimpanan" className="Button-site-simpanan-kiri">
+              <Button
+                variant="danger"
+                href="./formSimpanan"
+                className="Button-site-simpanan-kiri"
+              >
                 Buka Tabungan
               </Button>
             </div>
