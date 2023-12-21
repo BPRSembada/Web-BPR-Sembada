@@ -24,11 +24,20 @@
   gap: 2.5rem;
 }
 
-.fitur-manfaat-prasayart-kredit-konsumtif .site-fitur-manfaat-simpanan .btn{
-  /* width: max-content; */
-}
+/* .fitur-manfaat-prasayart-kredit-konsumtif .site-fitur-manfaat-simpanan .btn {
+  width: max-content;
+} */
 
-@media (max-width: 1400px) {
+@media (max-width: 1200px) and (max-width: 1399px) {
+  .hero-img-kreditKonsumtif {
+    margin-top: 3rem;
+    height: 34rem;
+  }
+  /* 
+  ------------------------------
+  fitur prasyarat dan manfaat
+  ------------------------------
+  */
   .fitur-manfaat-prasayart-kredit-konsumtif {
     width: 100%;
     padding-inline: 2rem;
@@ -39,26 +48,18 @@
     align-items: center;
     gap: 2.5rem;
   }
-
-  /* .cont-fitur-manfaat-kredit {
-    flex-direction: row;
-  } */
 }
 
-@media (max-width: 1200px) {
-  .fitur-manfaat-prasayart-kredit-konsumtif {
-    width: 100%;
-    padding-inline: 2rem;
-    padding-block: 5rem;
-    /* background-color: #b50b0b; */
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    gap: 2.5rem;
+@media (max-width: 992px) and (max-width: 1199px) {
+  .hero-img-kreditKonsumtif {
+    margin-top: 3rem;
+    height: 30rem;
   }
-}
-
-@media (max-width: 992px) {
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
   .fitur-manfaat-prasayart-kredit-konsumtif {
     width: 100%;
     padding-inline: 2rem;
@@ -71,7 +72,30 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-img-kreditKonsumtif {
+    margin-top: 2.6rem;
+    height: 23rem;
+  }
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit-konsumtif {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1.5rem;
+    padding-block: 5rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero-img-kreditKonsumtif {
+    margin-top: 2.3rem;
+    height: 23rem;
+  }
   /* 
   ---------------------------
   fitur prasyarat dan manfaat
@@ -81,12 +105,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-inline: 1.5rem;
-    padding-block: 5rem;
+    padding-inline: 2rem;
+    padding-block: 3rem;
   }
 }
-
-@media (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 479px) {
+  .hero-img-kreditKonsumtif {
+    margin-top: 2.6rem;
+    height: 23rem;
+  }
   /* 
   ---------------------------
   fitur prasyarat dan manfaat

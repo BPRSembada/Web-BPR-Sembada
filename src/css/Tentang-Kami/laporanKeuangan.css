@@ -2,14 +2,14 @@
   background-image: url("../../assets/laporan-keuangan-hero.jpg");
   background-size: 100% 100%;
   background-position: center;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
-.header-kontak{
+.header-kontak {
   width: 40%;
 }
 
@@ -78,8 +78,45 @@
   }
 }
 
-@media (max-width: 480px) {
-  .list-lap-keuangan{
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero-section-keuangan {
+    height: 25rem;
+  }
+  .cont-keuangan {
+    margin-block: 3rem;
+    margin-inline: 0.5rem;
+    /* background-color: #b50b0b; */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .cont-keuangan h2 {
+    font-size: 2rem;
+    color: #b50b0b;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .list-lap-keuangan {
+    flex-direction: column;
+  }
+}
+@media (min-width: 360px) and (max-width: 479px) {
+  .hero-section-keuangan {
+    height: 23rem;
+  }
+  .cont-keuangan {
+    margin-block: 3rem;
+    margin-inline: 0.5rem;
+    /* background-color: #b50b0b; */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .cont-keuangan h2 {
+    font-size: 2rem;
+    color: #b50b0b;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .list-lap-keuangan {
     flex-direction: column;
   }
 }

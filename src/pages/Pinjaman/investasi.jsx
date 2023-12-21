@@ -1,15 +1,13 @@
 import "../../css/Pinjaman/investasi.css";
 import { Button, Accordion } from "react-bootstrap";
-import Icon from "@mdi/react";
-import {
-  mdiClockFast,
-  mdiShieldCheckOutline,
-  mdiClipboardEditOutline,
-} from "@mdi/js";
+
 import AccordionItem from "react-bootstrap/esm/AccordionItem";
 import AccordionHeader from "react-bootstrap/esm/AccordionHeader";
 import AccordionBody from "react-bootstrap/esm/AccordionBody";
 import KalkulatorKredit from "../../component/kalkulator";
+import { SlSpeedometer } from "react-icons/sl";
+import { AiOutlineSafety } from "react-icons/ai";
+import { LuClipboardCheck } from "react-icons/lu";
 const Investasi = () => {
   return (
     <div>
@@ -29,71 +27,41 @@ const Investasi = () => {
         </p>
       </div>
 
-      <div className="container1">
-        <div className="cont-body">
-          <div className="mid-container">
-            <h2 data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
-              Keunggulan
-            </h2>
-            <section class="featuress">
-              <div
-                className="feature"
-                data-aos="flip-left"
-                data-aos-duration="1000"
-                data-aos-once="true"
-              >
-                <Icon path={mdiClockFast} size={4} className="icon-simkon" />
-                <h3>Cepat</h3>
-                <p>
-                  Proses pengajuan aplikasi mudah dan nyaman, ajukan online dan
-                  data Anda dapat kami jemput, sehingga dana Anda cepat cair.
-                </p>
-              </div>
-              <div
-                className="feature"
-                data-aos="flip-left"
-                data-aos-duration="1000"
-                data-aos-delay="300"
-                data-aos-once="true"
-              >
-                <Icon
-                  path={mdiShieldCheckOutline}
-                  size={4}
-                  className="icon-simkon"
-                />
-                <h3>Aman</h3>
-                <p>
-                  Dikelola oleh tim profesional, Bank Sembada merupakan lembaga
-                  jasa keuangan yang berizin dan diawasi oleh OJK (Otoritas Jasa
-                  Keuangan).
-                  <br />
-                  <br />
-                  {/* <i>*setelah persyaratan data dinyatakan lengkap</i> */}
-                </p>
-              </div>
-              <div
-                className="feature"
-                data-aos="flip-left"
-                data-aos-duration="1000"
-                data-aos-delay="500"
-                data-aos-once="true"
-              >
-                <Icon
-                  path={mdiClipboardEditOutline}
-                  size={4}
-                  className="icon-simkon"
-                />
-                <h3>Mudah</h3>
-                <p>
-                  Persyaratan mudah dan tidak berbelit-belit untuk mendapatkan
-                  persetujuan pinjaman, serta jangka waktu pinjaman s/d. 10
-                  tahun.
-                </p>
-              </div>
-            </section>
-          </div>
+      <section className="keunggulan-produk">
+        <div className="container-keunggulan">
+          <h2>Keunggulan</h2>
+          <section className="container-cart-keunggulan">
+            <div className="cart-keunggulan">
+              <SlSpeedometer className="react-icon" />
+              <h3>Cepat</h3>
+              <p>
+                Proses pengajuan aplikasi mudah dan nyaman, ajukan online dan
+                data Anda dapat kami jemput, sehingga dana Anda cepat cair.
+              </p>
+            </div>
+            <div className="cart-keunggulan">
+              <AiOutlineSafety className="react-icon" />
+              <h3>Aman</h3>
+              <p>
+                Dikelola oleh tim profesional, Bank Sembada merupakan lembaga
+                jasa keuangan yang berizin dan diawasi oleh OJK (Otoritas Jasa
+                Keuangan).
+                <br />
+                <br />
+                {/* <i>*setelah persyaratan data dinyatakan lengkap</i> */}
+              </p>
+            </div>
+            <div className="cart-keunggulan">
+              <LuClipboardCheck className="react-icon" />
+              <h3>Mudah</h3>
+              <p>
+                Persyaratan mudah dan tidak berbelit-belit untuk mendapatkan
+                persetujuan pinjaman, serta jangka waktu pinjaman s/d. 10 tahun.
+              </p>
+            </div>
+          </section>
         </div>
-      </div>
+      </section>
 
       <section className="fitur-manfaat-prasayart-kredit-investasi">
         <div className="cont-fitur-manfaat-kredit">

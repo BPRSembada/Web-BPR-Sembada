@@ -7,11 +7,11 @@ hero struktur organisasi
   background-image: url(/src/assets/struktur-organisasi-hero.jpg);
   background-size: 100% 100%;
   background-position: center;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 /* 
 ------------
@@ -116,39 +116,11 @@ batas
 
 @media (max-width: 1200px) {
 }
-@media (max-width: 992px) {
-}
-@media screen and (max-width: 768px) {
-  .profile-card {
-    margin-bottom: 20px;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-section-struktur {
+    height: 30rem;
+    margin-top: 2.8rem;
   }
-
-  .profile-card:hover {
-    height: 200px;
-    width: 150px;
-  }
-
-  .profile-card:hover .img {
-    transform: translateY(-30px);
-  }
-
-  .caption {
-    transform: translateY(-50px);
-  }
-
-  .profile-card:hover .caption {
-    transform: translateY(-25px);
-  }
-
-  .caption h3 {
-    font-size: 16px;
-  }
-
-  .caption p {
-    font-size: 12px;
-  }
-}
-@media (max-width: 480px) {
   .cont-profil-SDM {
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -161,12 +133,71 @@ batas
   }
   .cont-profil-SDM h2 {
     text-align: center;
+    font-size: 2rem;
   }
   .cont-cart-profil {
-    align-items: center;
+    align-items: start;
     /* background-color: #b50b0b; */
     justify-content: center;
   }
 }
-@media (max-width: 360px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-section-struktur {
+    height: 28rem;
+    margin-top: 2.8rem;
+  }
+  .cont-profil-SDM {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-inline: 0;
+    /* background-color: aqua; */
+    /* display: flex;
+    flex-direction: column;
+    gap: 1rem; */
+    align-items: center;
+  }
+  .cont-profil-SDM h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .cont-cart-profil {
+    align-items: start;
+    /* background-color: #b50b0b; */
+    justify-content: center;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero-section-struktur {
+    height: 23rem;
+    margin-top: 2.6rem;
+  }
+  .cont-profil-SDM {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-inline: 0;
+    /* background-color: aqua; */
+    /* display: flex;
+    flex-direction: column;
+    gap: 1rem; */
+    align-items: center;
+  }
+  .cont-profil-SDM h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .cont-cart-profil {
+    align-items: start;
+    /* background-color: #b50b0b; */
+    justify-content: center;
+  }
+}
+@media (max-width: 360px) and (max-width: 479px) {
+  .hero-section-struktur {
+    height: 23rem;
+    margin-top: 2.6rem;
+  }
+  .cont-profil-SDM h2 {
+    font-size: 2rem;
+    margin-inline: 1rem;
+  }
 }

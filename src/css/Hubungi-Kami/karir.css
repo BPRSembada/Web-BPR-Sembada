@@ -2,11 +2,11 @@
   background-image: url("https://images.unsplash.com/photo-1530099486328-e021101a494a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1547&q=80");
   background-size: 100% 100%;
   /* background-position: center; */
-  height: 60vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .cont-form-karir {
   margin-block: 4rem;
@@ -26,19 +26,45 @@
 }
 .listKarir {
   display: flex;
-  margin-inline: 10rem;
-  margin-bottom: 4rem;
+  margin-inline: 1rem;
+  margin-block: 4rem;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
 }
-.listKarir p {
-  margin-right: 2rem;
+
+/* 
+-------------------
+new cart rekruitmen
+-------------------
+*/
+.cart_rekruitmen {
+  width: 25rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  padding: 0.8rem;
 }
-
-/* Karir Card */
-
-.carirCard .accordion-body ul, li{
+.cart_rekruitmen h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #b50b0b;
+  margin-bottom: 0.5rem;
+}
+.cart_rekruitmen img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.cart_rekruitmen .kualifikasi_benefit {
+  margin-bottom: 1rem;
+}
+.cart_rekruitmen li {
   font-size: 1rem;
+}
+.button_hrd {
+  display: flex;
+  /* justify-content: center; */
+  gap: 1rem;
 }
 
 @media (max-width: 1400px) {
@@ -59,7 +85,10 @@
     margin-inline: 3rem;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .hero-section-karir {
+    height: 40rem;
+  }
   .cont-form-karir {
     margin-inline: 3rem;
     padding-inline: 1rem;
@@ -68,25 +97,13 @@
     margin-inline: 3rem;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-section-karir {
+    height: 32rem;
+  }
   .cont-form-karir {
     margin-inline: 2rem;
-    padding-inline: 1rem;
   }
-  .listKarir {
-    margin-inline: 2rem;
-  }
-}
-@media (max-width: 768px) {
-  .cont-form-karir {
-    margin-inline: 2rem;
-    padding-inline: 1rem;
-  }
-  .listKarir {
-    margin-inline: 2rem;
-  }
-}
-@media (max-width: 480px) {
   .cont-form-karir h2 {
     font-size: 2rem;
   }
@@ -94,8 +111,91 @@
     font-size: 1rem;
   }
   .listKarir {
-    margin-inline: 2rem;
+    margin-inline: 0.3rem;
+    justify-content: center;
+  }
+  .cart_rekruitmen {
+    width: 20rem;
+  }
+  .cart_rekruitmen h2 {
+    font-size: 1.5rem;
+  }
+  .cart_rekruitmen li {
+    font-size: 1rem;
   }
 }
-@media (max-width: 360px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-section-karir {
+    height: 32rem;
+  }
+  .cont-form-karir {
+    margin-inline: 1rem;
+  }
+  .cont-form-karir h2 {
+    font-size: 2rem;
+  }
+  .cont-form-karir p {
+    font-size: 1rem;
+  }
+  .listKarir {
+    margin-inline: 0.3rem;
+    justify-content: center;
+  }
+  .cart_rekruitmen {
+    width: 20rem;
+  }
+  .cart_rekruitmen h2 {
+    font-size: 1.5rem;
+  }
+  .cart_rekruitmen li {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero-section-karir {
+    height: 23rem;
+  }
+  .cont-form-karir {
+    margin-inline: 1rem;
+  }
+  .cont-form-karir h2 {
+    font-size: 2rem;
+  }
+  .cont-form-karir p {
+    font-size: 1rem;
+  }
+  .listKarir {
+    margin-inline: 0.3rem;
+    justify-content: center;
+  }
+  .cart_rekruitmen h2 {
+    font-size: 1.5rem;
+  }
+  .cart_rekruitmen li {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 360px) and (max-width: 479px) {
+  .hero-section-karir {
+    height: 23rem;
+  }
+  .cont-form-karir {
+    margin-inline: 0.2rem;
+  }
+  .cont-form-karir h2 {
+    font-size: 2rem;
+  }
+  .cont-form-karir p {
+    font-size: 1rem;
+  }
+  .listKarir {
+    margin-inline: 0.3rem;
+    justify-content: center;
+  }
+  .cart_rekruitmen h2 {
+    font-size: 1.5rem;
+  }
+  .cart_rekruitmen li {
+    font-size: 1rem;
+  }
 }

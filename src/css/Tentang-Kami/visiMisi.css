@@ -2,144 +2,234 @@
   background-image: url(../../assets/visi-misi-hero.jpg);
   background-size: 100% 100%;
   background-position: center;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
-.containers-visi {
-  text-align: center;
-  color: white;
-  z-index: 1;
-}
-
-.cont-visi {
+/* 
+--------------------
+css baru visi misi
+--------------------
+*/
+.new-container-vismis {
+  padding: 1.5rem;
+  display: flex;
   margin-inline: 6rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-.containers-visi h1 {
-  font-size: 3.5rem;
-  font-weight: 600;
+.new-visi {
+  flex-basis: 50%;
 }
-
-.row-vismis{
-    margin: 0 auto;
-    padding: 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 4rem;
-    /* background-color: #b50b0b; */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  
-}
-
-.row-vismis .vismis h2 {
-  color: #b50b0b;
+.new-visi h2 {
   font-size: 2.4rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  color: #b50b0b;
 }
-
-.row-vismis .vismis p {
-  color: black;
+.new-visi p {
   font-size: 1.4rem;
 }
-
-.vismis li {
+.new-misi {
+  flex-basis: 50%;
+}
+.new-misi h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #b50b0b;
+}
+.new-misi p {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.new-misi li {
   font-size: 1.4rem;
   color: black;
   text-align: start;
+  margin-bottom: 0.5rem;
 }
-.vismis b {
-  font-size: 1.2rem;
+.new-misi b {
+  font-size: 1.5rem;
+  color: #b50b0b;
 }
+/* .new-visi {
+  background-color: aqua;
+}
+.new-misi {
+  background-color: #b50b0b;
+} */
 
-.vision-mission {
-  padding: 50px 0;
-  /* margin-top: 3rem; */
-  /* color: black; */
-}
-
-.vision-mission h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.vision-mission p {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.vision-mission ul {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-.vision-mission ul li {
-  margin-bottom: 10px;
-  padding-left: 20px;
-  position: relative;
-}
-
-.vision-mission ul li::before {
-  content: "\2022";
-  position: absolute;
-  left: 0;
-  color: #007bff;
-}
-
-@media (max-width: 768px) {
-  .hero-section {
-    height: 300px;
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .hero-section-visi {
+    height: 25rem;
+    margin-top: 2.6rem;
   }
-  .cont-visi {
-    margin-inline: 2rem;
-  }
-
-  h1 {
-    font-size: 2em;
-  }
-
-  p {
-    font-size: 1.2em;
-  }
-  .vision-mission .col-lg-6 {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-  .cont-visi {
-    margin-inline: 2rem;
+  .new-container-vismis {
+    margin-inline: 1.5rem;
+    justify-content: center;
+    gap: 1rem;
   }
 }
-
-@media (max-width: 480px) {
-  .containers-visi h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-section-visi {
+    height: 25rem;
+    margin-top: 2.6rem;
   }
-  .row .vismis h2 {
-    color: #b50b0b;
+  .new-container-vismis {
+    margin-inline: 1.5rem;
+    /* flex-direction: column; */
+    gap: 1rem;
+    padding-inline: 1rem;
+  }
+  .new-visi h2 {
     font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 1rem;
+    color: #b50b0b;
   }
-  
-  .row .vismis p {
+  .new-visi p {
+    font-size: 1.1rem;
+  }
+
+  .new-misi h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #b50b0b;
+  }
+  .new-misi p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .new-misi li {
+    font-size: 1.1rem;
     color: black;
+    text-align: start;
+    margin-bottom: 0.5rem;
+  }
+  .new-misi b {
+    font-size: 1.3rem;
+    color: #b50b0b;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-section-visi {
+    height: 25rem;
+    margin-top: 2.6rem;
+  }
+  .new-container-vismis {
+    margin-inline: 1.5rem;
+    /* flex-direction: column; */
+    gap: 2rem;
+  }
+  .new-visi h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #b50b0b;
+  }
+  .new-visi p {
+    font-size: 1.1rem;
+  }
+
+  .new-misi h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #b50b0b;
+  }
+  .new-misi p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .new-misi li {
+    font-size: 1.1rem;
+    color: black;
+    text-align: start;
+    margin-bottom: 0.5rem;
+  }
+  .new-misi b {
+    font-size: 1.3rem;
+    color: #b50b0b;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero-section-visi {
+    height: 20rem;
+    margin-top: 2.6rem;
+  }
+  .new-container-vismis {
+    margin-inline: 1.5rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .new-visi h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #b50b0b;
+  }
+  .new-visi p {
     font-size: 1rem;
   }
-  
-  .vismis li {
+
+  .new-misi h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #b50b0b;
+  }
+  .new-misi p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .new-misi li {
     font-size: 1rem;
     color: black;
     text-align: start;
+    margin-bottom: 0.5rem;
   }
-  .vismis b {
-    font-size: 1.2rem;
+  .new-misi b {
+    font-size: 1.1rem;
+    color: #b50b0b;
   }
-  
+}
+
+@media (min-width: 360px) and (max-width: 479px) {
+  .hero-section-visi {
+    height: 20rem;
+    margin-top: 2.6rem;
+  }
+  .new-container-vismis {
+    margin-inline: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .new-visi h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #b50b0b;
+  }
+  .new-visi p {
+    font-size: 1rem;
+  }
+
+  .new-misi h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #b50b0b;
+  }
+  .new-misi p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .new-misi li {
+    font-size: 1rem;
+    color: black;
+    text-align: start;
+    margin-bottom: 0.5rem;
+  }
+  .new-misi b {
+    font-size: 1.1rem;
+    color: #b50b0b;
+  }
 }

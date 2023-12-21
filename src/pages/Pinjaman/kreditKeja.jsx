@@ -1,12 +1,7 @@
 import "../../css/Pinjaman/kreditKerja.css";
 import "../../component/Calculator.css";
 import { Button, Accordion } from "react-bootstrap";
-import Icon from "@mdi/react";
-import {
-  mdiClockFast,
-  mdiShieldCheckOutline,
-  mdiClipboardEditOutline,
-} from "@mdi/js";
+
 import AccordionItem from "react-bootstrap/esm/AccordionItem";
 import AccordionBody from "react-bootstrap/esm/AccordionBody";
 import { SlSpeedometer } from "react-icons/sl";
@@ -147,7 +142,7 @@ const Kreditkerja = () => {
                   <ol>
                     <li>
                       Data Calon Debitur
-                      <ol>
+                      <ul>
                         <li>Foto Copy KTP Pengurus</li>
                         <li>
                           Foto Copy Akte Pendirian & Perubahannya (Lengkap)
@@ -155,21 +150,21 @@ const Kreditkerja = () => {
                         <li>Foto Copy SK MenKeh (Lengkap)</li>
                         <li>Foto Copy Lembaran Berita Negara</li>
                         <li>Foto Copy RUPS</li>
-                      </ol>
+                      </ul>
                     </li>
                     <li>
                       Dokumen Perizinan
-                      <ol>
+                      <ul>
                         <li>Foto Copy NPWP Badan Usaha</li>
                         <li>Foto Copy NPWP Pengurus</li>
                         <li>Foto Copy SIUP/NIB</li>
                         <li>Foto Copy TDP</li>
                         <li>Foto Copy Domisili Usaha</li>
-                      </ol>
+                      </ul>
                     </li>
                     <li>
                       Data Keuangan / Usaha
-                      <ol>
+                      <ul>
                         <li>
                           Foto Copy Rekening Koran/Tabungan 6 Bulan Terakhir
                         </li>
@@ -177,11 +172,11 @@ const Kreditkerja = () => {
                         <li>Data Supplier & Customer</li>
                         <li>Foto Copy Invoice/Catatan Penjualan-Pembelian</li>
                         <li>Company Profile, Brosur, Pricelist</li>
-                      </ol>
+                      </ul>
                     </li>
                     <li>
                       Data Jaminan / Agunan
-                      <ol>
+                      <ul>
                         <li>
                           Foto Copy Sertifikat Tanah/Bangunan/Bukti
                           Kepemilikan/Surat Berharga
@@ -189,7 +184,7 @@ const Kreditkerja = () => {
                         <li>Foto Copy Akte Jual Beli</li>
                         <li>Foto Copy IMB</li>
                         <li>Foto Copy PBB Terakhir</li>
-                      </ol>
+                      </ul>
                     </li>
                   </ol>
                 </AccordionBody>
@@ -202,7 +197,7 @@ const Kreditkerja = () => {
                   <ol>
                     <li>
                       Data Calon Debitur
-                      <ol>
+                      <ul>
                         <li>Foto Copy KTP Pengurus</li>
                         <li>
                           Foto Copy Akte Pendirian & Perubahannya (Lengkap)
@@ -210,21 +205,21 @@ const Kreditkerja = () => {
                         <li>Foto Copy SK MenKeh (Lengkap)</li>
                         <li>Foto Copy Lembaran Berita Negara</li>
                         <li>Foto Copy RUPS</li>
-                      </ol>
+                      </ul>
                     </li>
                     <li>
                       Dokumen Perizinan
-                      <ol>
+                      <ul>
                         <li>Foto Copy NPWP Badan Usaha</li>
                         <li>Foto Copy NPWP Pengurus</li>
                         <li>Foto Copy SIUP/NIB</li>
                         <li>Foto Copy TDP</li>
                         <li>Foto Copy Domisili Usaha</li>
-                      </ol>
+                      </ul>
                     </li>
                     <li>
                       Data Keuangan / Usaha
-                      <ol>
+                      <ul>
                         <li>
                           Foto Copy Rekening Koran/Tabungan 6 Bulan Terakhir
                         </li>
@@ -232,11 +227,11 @@ const Kreditkerja = () => {
                         <li>Data Supplier & Customer</li>
                         <li>Foto Copy Invoice/Catatan Penjualan-Pembelian</li>
                         <li>Company Profile, Brosur, Pricelist</li>
-                      </ol>
+                      </ul>
                     </li>
                     <li>
                       Data Jaminan / Agunan
-                      <ol>
+                      <ul>
                         <li>
                           Foto Copy Sertifikat Tanah/Bangunan/Bukti
                           Kepemilikan/Surat Berharga
@@ -244,7 +239,7 @@ const Kreditkerja = () => {
                         <li>Foto Copy Akte Jual Beli</li>
                         <li>Foto Copy IMB</li>
                         <li>Foto Copy PBB Terakhir</li>
-                      </ol>
+                      </ul>
                     </li>
                   </ol>
                 </AccordionBody>

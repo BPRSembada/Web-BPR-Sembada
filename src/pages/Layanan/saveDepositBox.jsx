@@ -8,15 +8,15 @@ const SaveDepositBox = () => {
       <div className="hero-section-sdb"></div>
 
       <section className="contSdb">
+        <h2>
+          <i>Segera Hadir Layanan Safe Deposit Box</i>
+        </h2>
         <p
           div
           data-aos="zoom-in-up"
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          <h2>
-            <i>Segera Hadir Layanan Safe Deposit Box</i>
-          </h2>
           <b>
             <span>Bank Multi Sembada Dana </span>
           </b>
@@ -47,54 +47,53 @@ const SaveDepositBox = () => {
           </p>
         </div>
         <div className="hovKeunggulan">
-          <section className="row1">
-            <div
-              className="sdbCardCont"
-              div
-              data-aos="zoom-in"
-              data-aos-once="true"
-            >
-              <h3>Aman</h3>
-              <p>
-                Ruang penyimpanan yang kokoh dan tahan api dilengkapi dengan
-                sistem keamanan berupa kamera pengawas 24 jam (CCTV) di sekitar
-                akses masuk ruang SDB, pintu baja khusus untuk masuk ruangan,
-                serta diperlukan kunci dari Penyewa dan dari BPR untuk membuka
-                kotak SDB.
-              </p>
-            </div>
+          <div
+            className="sdbCardCont"
+            div
+            data-aos="zoom-in"
+            data-aos-once="true"
+          >
+            <h3>Aman</h3>
+            <p>
+              Ruang penyimpanan yang kokoh dan tahan api dilengkapi dengan
+              sistem keamanan berupa kamera pengawas 24 jam (CCTV) di sekitar
+              akses masuk ruang SDB, pintu baja khusus untuk masuk ruangan,
+              serta diperlukan kunci dari Penyewa dan dari BPR untuk membuka
+              kotak SDB.
+            </p>
+          </div>
 
-            <div
-              className="sdbCardCont"
-              div
-              data-aos="zoom-in"
-              data-aos-delay="300"
-              data-aos-once="true"
-            >
-              <h3>Fleksibel</h3>
-              <p>
-                Tersedia dalam berbagai ukuran yaitu Small, Medium dan Large
-                sesuai dengan kebutuhan Penyewa, baik bagi Penyewa Perorangan
-                maupun Badan Hukum.
-              </p>
-            </div>
+          <div
+            className="sdbCardCont"
+            div
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            data-aos-once="true"
+          >
+            <h3>Fleksibel</h3>
+            <p>
+              Tersedia dalam berbagai ukuran yaitu Small, Medium dan Large
+              sesuai dengan kebutuhan Penyewa, baik bagi Penyewa Perorangan
+              maupun Badan Hukum.
+            </p>
+          </div>
 
-            <div
-              className="sdbCardCont"
-              div
-              data-aos="zoom-in"
-              data-aos-delay="500"
-              data-aos-once="true"
-            >
-              <h3>Mudah</h3>
-              <p>
-                Persyaratan sewa cukup mudah yaitu dengan membuka rekening
-                tabungan dan tarif sewa yang relatif terjangkau sesuai ukuran
-                yang dibutuhkan.
-              </p>
-            </div>
+          <div
+            className="sdbCardCont"
+            div
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            data-aos-once="true"
+          >
+            <h3>Mudah</h3>
+            <p>
+              Persyaratan sewa cukup mudah yaitu dengan membuka rekening
+              tabungan dan tarif sewa yang relatif terjangkau sesuai ukuran yang
+              dibutuhkan.
+            </p>
+          </div>
 
-            {/* <div
+          {/* <div
               className="sdbCardCont"
               div
               data-aos="zoom-in"
@@ -107,7 +106,6 @@ const SaveDepositBox = () => {
                 berkelas.
               </p>
             </div> */}
-          </section>
         </div>
       </section>
 

@@ -4,6 +4,9 @@ import { Carousel } from "react-bootstrap";
 import { DataLelang } from "../../database/dataLelang";
 import Icon from "@mdi/react";
 import { mdiHomeClockOutline, mdiEmailCheck, mdiCashCheck } from "@mdi/js";
+import { IoMdPricetags } from "react-icons/io";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdOutlineMailOutline } from "react-icons/md";
 
 const DetailLelang = () => {
   let idLelang = +document.location.search.substring(1);
@@ -47,13 +50,13 @@ const DetailLelang = () => {
                       <h3>Akses Lokasi :</h3>
                       <p className="mb-2">{itemLokasi.navigasi}</p>
                       <h3>Kepemilikan :</h3>
-                      {dataLelang[0].deskripsi.map((desc, descIndex) => {
-                        return (
-                          <ul>
-                            <li>{dataLelang[0].deskripsi[descIndex]}</li>
-                          </ul>
-                        );
-                      })}
+                      {dataLelang.map((lelangItem, lelangIndex) => (
+                        <ul key={lelangIndex}>
+                          {lelangItem.deskripsi.map((desc, descIndex) => (
+                            <li key={descIndex}>{desc[descIndex]}</li>
+                          ))}
+                        </ul>
+                      ))}
                     </div>
                   );
                 })}
@@ -78,66 +81,45 @@ const DetailLelang = () => {
           </div>
         </div>
       </div>
-      <div className="info-lelang">
-        <div className="mid-container">
-          <h2 data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
-            Informasi lelang
-          </h2>
-          <section class="featuress">
-            {/* <div
-              className="feature"
-              data-aos="flip-left"
-              data-aos-duration="1000"
-              data-aos-once="true"
-            >
-              <Icon path={mdiHomeClockOutline} size={4} className="icon" />
-              <h3>Waktu dan Tempat Lelang</h3>
-              {dataLelang.map((item, index) => {
-                return (
-                  <>
-                    <p>Rabu / 27-Sep-2023</p>
-                    <p>{item.DetailAset[0].HargaPasar}</p>
-                  </>
-                );
-              })}
-            </div> */}
 
-            <div
-              className="feature"
-              data-aos="flip-left"
-              data-aos-duration="1000"
-              data-aos-delay="300"
-              data-aos-once="true"
-            >
+      <section className="keunggulan-produk">
+        <div className="container-keunggulan">
+          <h2>Informasi Lelang</h2>
+          <div className="container-cart-keunggulan">
+            <div className="cart-keunggulan">
+              <IoMdPricetags className="react-icon" />
+              <h3>Harga lelang</h3>
               <Icon path={mdiCashCheck} size={4} className="icon" />
               <h3>Harga Lelang</h3>
               {dataLelang.map((item, index) => {
                 return <p>{item.DetailAset[0].HargaPasar}</p>;
               })}
             </div>
-            <div
-              className="feature"
-              data-aos="flip-left"
-              data-aos-duration="1000"
-              data-aos-delay="500"
-              data-aos-once="true"
-            >
-              <Icon path={mdiEmailCheck} size={4} className="icon" />
+            <div className="cart-keunggulan">
+              <FaPhoneAlt className="react-icon" />
               <h3>Kontak informasi lelang</h3>
-              <a href="https://wa.me/6282122753683" target="blank">
+              <a
+                href="https://wa.me/6282122753683"
+                target="blank"
+                className="a_lelang"
+              >
                 +62 821-2275-3683 (Beni Wijaya)
               </a>
-              <br />
+            </div>
+            <div className="cart-keunggulan">
+              <MdOutlineMailOutline className="react-icon" />
+              <h3>Email</h3>
               <a
                 href="https://support.google.com/mail/answer/8494?hl=id&co=GENIE.Platform%3DDesktop"
                 target="blank"
+                className="a_lelang"
               >
                 bprsembada@bprsembada.com
               </a>
             </div>
-          </section>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

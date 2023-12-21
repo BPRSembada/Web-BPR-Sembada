@@ -2,7 +2,7 @@ export const heroSlider = [
   {
     head_text: "Percayakan solusi keuangan Anda dengan cepat dan nyaman",
     desc: "web dev",
-    img_url: "../heroImage/percaya-solusi-keuangan.jpg",
+    img_url: "../heroImage/cover_baru.jpg",
   },
   {
     head_text:

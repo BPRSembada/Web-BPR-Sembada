@@ -177,7 +177,11 @@ section fitur-manfaat-prasyrat simpanan
   color: white;
 }
 
-/* css accordion download form */
+/*
+---------------------------- 
+css accordion download form 
+----------------------------
+*/
 
 .form-pembukaan {
   display: flex;

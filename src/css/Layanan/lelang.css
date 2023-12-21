@@ -133,7 +133,7 @@ CSS Page Detail Lelang
   justify-content: center;
   gap: 2rem;
 }
-.info-lelang .feature a {
+.a_lelang {
   text-decoration: none;
   color: black;
 }

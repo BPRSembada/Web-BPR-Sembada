@@ -2,11 +2,11 @@
   background-image: url("https://i.ibb.co/ZMZqJjY/pengaduan-nasabah.jpg");
   background-size: 100% 100%;
   background-position: 0 10%;
-  height: 60vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .cont-pengaduan {
   margin-inline: 6rem;
@@ -65,7 +65,7 @@
 .snk_pengaduan {
   margin-inline: 8rem;
 }
-.snk_pengaduan th{
+.snk_pengaduan th {
   text-align: center;
 }
 
@@ -87,7 +87,7 @@
     margin-inline: 3rem;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .cont-cara-pengaduan div h2 {
     font-size: 2.2rem;
   }
@@ -105,7 +105,10 @@
     text-align: center;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .hero-section-pengaduan {
+    height: 26rem;
+  }
   .cont-cara-pengaduan div h2 {
     font-size: 2.2rem;
   }
@@ -135,13 +138,44 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .hero-section-pengaduan {
-    height: 350px;
+    height: 23rem;
   }
 
   .cont-pengaduan {
     margin-inline: 2rem;
+  }
+
+  .cont-cara-pengaduan {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .cont-cara-pengaduan div h2 {
+    font-size: 2rem;
+  }
+  .cont-cara-pengaduan div li {
+    font-size: 1rem;
+  }
+  .cont-langkah-pengaduan {
+    height: 15rem;
+  }
+  .cont-langkah-pengaduan h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .snk_pengaduan {
+    margin-inline: 1rem;
+  }
+}
+@media (min-width: 360px) and (max-width: 479px) {
+  .hero-section-pengaduan {
+    height: 23rem;
+    margin-top: 3.1rem;
+  }
+
+  .cont-pengaduan {
+    margin-inline: 1rem;
   }
 
   .cont-cara-pengaduan {

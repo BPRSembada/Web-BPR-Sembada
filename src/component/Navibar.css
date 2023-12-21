@@ -11,6 +11,7 @@ CSS Navigation Bar
 
 .icon-navBar {
   color: #b50b0b;
+  font-size: 2.5rem;
 }
 .nav-link {
   font-size: 1.3rem;
@@ -21,37 +22,48 @@ CSS Navigation Bar
 Responsive Navigation bar
 -------------------------
 */
-@media (max-width: 992px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .nav-link {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
   .nav-logo {
     width: 12rem;
     margin: none;
     padding: none;
   }
   .nav-link {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
     color: black;
   }
+  .dropdown-item {
+    font-size: 0.8rem;
+  }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .nav-logo {
-    width: 12rem;
+    width: 13rem;
     margin: none;
     padding: none;
   }
 }
-@media (max-width: 480px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .nav-logo {
-    width: 12rem;
+    width: 13rem;
     margin: none;
     padding: none;
   }
 }
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 479px) {
   .brand {
     font-size: 100%;
   }
   .nav-logo {
-    width: 6rem;
+    width: 13rem;
     margin: none;
     padding: none;
   }
@@ -197,9 +209,8 @@ CSS Footers
     margin-inline-end: 0;
     align-items: center;
     text-align: center;
-
   }
-  .logoLegal{
+  .logoLegal {
     display: flex;
     flex-direction: column;
     padding-block: 1rem;
@@ -227,7 +238,7 @@ CSS Footers
   }
 }
 
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 479px) {
   .container-footer {
     flex-direction: column;
   }
@@ -236,6 +247,7 @@ CSS Footers
   .footer-address {
     margin-inline: 1.1rem;
   }
+
   .cont-footer {
     /* background-color: aqua; */
     align-items: center;

@@ -105,138 +105,202 @@ fitur manfaat dan syarat kredit
 responsif
 --------- 
 */
-@media (max-width: 1400px) {
-  .fitur-manfaat-prasayart-kredit {
-    width: 100%;
-    padding-inline: 2rem;
-    padding-block: 5rem;
-    /* background-color: #b50b0b; */
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    gap: 2.5rem;
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .hero-img-kreditKerja {
+    margin-top: 3rem;
+    height: 32rem;
   }
 
-  /* .cont-fitur-manfaat-kredit {
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit {
     flex-direction: row;
-  } */
-}
-
-@media (max-width: 1200px) {
-  .fitur-manfaat-prasayart-kredit {
-    width: 100%;
-    padding-inline: 2rem;
-    padding-block: 5rem;
-    /* background-color: #b50b0b; */
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    gap: 2.5rem;
-  }
-}
-
-@media (max-width: 992px) {
-  /* .cont-fitur-manfaat-kredit {
-    flex-direction: column;
-  } */
-  .deskripsi-kedit-kerja {
-    margin-inline: 3rem;
-    margin-block: 3rem;
-  }
-  .deskripsi-kedit-kerja h2 {
-    font-size: 2.8rem;
-  }
-  .deskripsi-kedit-kerja p {
-    font-size: 1.2rem;
-  }
-  .mid-container h2 {
-    font-size: 2.2rem;
-  }
-  .cont-body .mid-container p {
-    font-size: 1rem;
-  }
-  .site-prasarat-kredit h3 {
-    font-size: 1.8rem;
-  }
-  .site-prasarat-kredit h5 {
-    font-size: 1.3rem;
-  }
-  .site-prasarat-kredit li {
-    font-size: 1rem;
-  }
-
-  /* 
-  ---------------------------
-  fitur prasyarat dan manfaat
-  ---------------------------
-  */
-  .fitur-manfaat-prasayart-kredit {
-    width: 100%;
-    padding-inline: 2rem;
-    padding-block: 5rem;
-    /* background-color: #b50b0b; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  /* 
-  ------------------
-  deskripsi simpanan
-  ------------------
-  */
-  .deskripsi-kedit-kerja {
-    margin-inline: 3rem;
-    margin-block: 3rem;
-  }
-  .deskripsi-kedit-kerja h1 {
-    font-size: 1.9rem;
-  }
-  .deskripsi-kedit-kerja p {
-    font-size: 1.1rem;
-  }
-  /* 
-  ---------------------------
-  fitur prasyarat dan manfaat
-  ---------------------------
-  */
-  .fitur-manfaat-prasayart-kredit {
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-inline: 1.5rem;
     padding-block: 5rem;
   }
   .cont-fitur-manfaat-kredit {
-    width: 80%;
+    width: 100%;
     align-items: center;
   }
   .site-fitur-manfaat-simpanan {
     width: 100%;
   }
-  .cont-fitur-manfaat-kanan {
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .site-fitur-manfaat-simpanan h3 {
+    font-size: 1.8rem;
   }
-  .site-prasarat-simpanan {
+  .site-prasarat-simpanan h5 {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  .site-fitur-manfaat-simpanan p {
+    font-size: 1rem;
+  }
+  .cont-fitur-manfaat-kanan {
     width: 100%;
-    padding: 1.2rem;
+  }
+  .site-prasarat-kredit {
+    width: 100%;
+    padding: 1rem;
+  }
+  .site-prasarat-kredit h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .site-prasarat-kredit li {
+    font-size: 1rem;
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-img-kreditKerja {
+    margin-top: 3rem;
+    height: 28rem;
+  }
   /* 
   ------------------
-  deskripsi simpanan
+  deskripsi kredit
   ------------------
   */
   .deskripsi-kedit-kerja {
-    margin-inline: 2rem;
+    margin-inline: 1rem;
+    margin-block: 3rem;
+  }
+  .deskripsi-kedit-kerja h2 {
+    font-size: 2rem;
+  }
+  .deskripsi-kedit-kerja p {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1.5rem;
+    padding-block: 5rem;
+  }
+  .cont-fitur-manfaat-kredit {
+    width: 100%;
+    align-items: center;
+  }
+  .site-fitur-manfaat-simpanan {
+    width: 100%;
+  }
+  .site-fitur-manfaat-simpanan h3 {
+    font-size: 1.5rem;
+  }
+  .site-prasarat-simpanan h5 {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .site-fitur-manfaat-simpanan p {
+    font-size: 1rem;
+  }
+  .cont-fitur-manfaat-kanan {
+    width: 100%;
+  }
+  .site-prasarat-kredit {
+    width: 100%;
+    padding: 1rem;
+  }
+  .site-prasarat-kredit h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .site-prasarat-kredit li {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-img-kreditKerja {
+    margin-top: 2.6rem;
+    height: 23rem;
+  }
+  /* 
+  ------------------
+  deskripsi kredit
+  ------------------
+  */
+  .deskripsi-kedit-kerja {
+    margin-inline: 1rem;
+    margin-block: 3rem;
+  }
+  .deskripsi-kedit-kerja h2 {
+    font-size: 2rem;
+  }
+  .deskripsi-kedit-kerja p {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1.5rem;
+    padding-block: 5rem;
+  }
+  .cont-fitur-manfaat-kredit {
+    width: 100%;
+    align-items: center;
+  }
+  .site-fitur-manfaat-simpanan {
+    width: 100%;
+  }
+  .site-fitur-manfaat-simpanan h3 {
+    font-size: 1.2rem;
+  }
+  .site-prasarat-simpanan h5 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .site-fitur-manfaat-simpanan p {
+    font-size: 0.8rem;
+  }
+  .cont-fitur-manfaat-kanan {
+    width: 100%;
+  }
+  .site-prasarat-kredit {
+    width: 100%;
+    padding: 1rem;
+  }
+  .site-prasarat-kredit h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .site-prasarat-kredit li {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero-img-kreditKerja {
+    margin-top: 2.3rem;
+    height: 23rem;
+  }
+  /* 
+  ------------------
+  deskripsi kredit
+  ------------------
+  */
+  .deskripsi-kedit-kerja {
+    margin-inline: 1rem;
     margin-block: 3rem;
   }
   .deskripsi-kedit-kerja h2 {
@@ -244,8 +308,8 @@ responsif
   }
   .deskripsi-kedit-kerja p {
     font-size: 1rem;
+    font-weight: 600;
   }
-
   /* 
   ---------------------------
   fitur prasyarat dan manfaat
@@ -264,28 +328,92 @@ responsif
   .site-fitur-manfaat-simpanan {
     width: 100%;
   }
-  .site-fitur-manfaat-simpanan h1 {
-    font-size: 1.8rem;
+  .site-fitur-manfaat-simpanan h3 {
+    font-size: 1.5rem;
+  }
+  .site-prasarat-simpanan h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .site-fitur-manfaat-simpanan p {
+    font-size: 1rem;
   }
   .cont-fitur-manfaat-kanan {
     width: 100%;
   }
   .site-prasarat-kredit {
+    width: 100%;
     padding: 1rem;
   }
   .site-prasarat-kredit h3 {
     font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .site-prasarat-kredit li {
+    font-size: 1rem;
   }
 }
-@media (min-width: 481px) and (max-width: 992px) {
-  .hero-img-kreditKerja {
-    margin-top: 2.6rem;
-    height: 30rem;
-  }
-}
-@media (min-width: 360px) and (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 479px) {
   .hero-img-kreditKerja {
     margin-top: 2.6rem;
     height: 20rem;
+  }
+  /* 
+  ------------------
+  deskripsi kredit
+  ------------------
+  */
+  .deskripsi-kedit-kerja {
+    margin-inline: 1rem;
+    margin-block: 3rem;
+  }
+  .deskripsi-kedit-kerja h2 {
+    font-size: 2rem;
+  }
+  .deskripsi-kedit-kerja p {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 2rem;
+    padding-block: 3rem;
+  }
+  .cont-fitur-manfaat-kredit {
+    width: 100%;
+  }
+  .site-fitur-manfaat-simpanan {
+    width: 100%;
+  }
+  .site-fitur-manfaat-simpanan h3 {
+    font-size: 1.5rem;
+  }
+  .site-prasarat-simpanan h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .site-fitur-manfaat-simpanan p {
+    font-size: 1rem;
+  }
+  .cont-fitur-manfaat-kanan {
+    width: 100%;
+  }
+  .site-prasarat-kredit {
+    width: 100%;
+    padding: 1rem;
+  }
+  .site-prasarat-kredit h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .site-prasarat-kredit li {
+    font-size: 1rem;
   }
 }

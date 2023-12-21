@@ -1,7 +1,8 @@
 import "../component/newFooter.css";
 
-import Icon from "@mdi/react";
-import { mdiInstagram, mdiEmailOutline, mdiTwitter } from "@mdi/js";
+import { FaXTwitter } from "react-icons/fa6";
+import { IoLogoInstagram } from "react-icons/io5";
+import { MdOutlineMail } from "react-icons/md";
 const NewFooter = () => {
   return (
     <div>
@@ -11,14 +12,14 @@ const NewFooter = () => {
           <h3>Alamat</h3>
           <div className="alamat-bank-sembada">
             <p>
-              Gedung ASEAN TOWER Jalan KH Samanhudi No.10 Lantai 1, RT.01 RW.02
+              Gedung ASEAN TOWER Lantai 1, Jalan KH Samanhudi No.10, RT.01 RW.02
               Kel. Pasar Baru, Kec. Sawah Besar, Jakarta Pusat 10710
             </p>
-            <h5>Nomor Telepon</h5>
-            <ul className="telephone">
-              <li>Telepon: 021-3840786</li>
-              <li>Telepon: 021-3840881</li>
-            </ul>
+            <h3>Nomor Telepon</h3>
+            <div className="telephone">
+              <p>Telepon: 021-3840786</p>
+              <p>Telepon: 021-3840881</p>
+            </div>
           </div>
         </div>
         <div className="new-middle-footer">
@@ -26,19 +27,19 @@ const NewFooter = () => {
           <ul>
             <li>
               <a href="https://www.instagram.com/bpr.sembada/" target="blank">
-                <Icon path={mdiInstagram} size={2} />
+                <IoLogoInstagram className="footer-icon" />
               </a>
             </li>
 
             <li>
               <a href="https://twitter.com/BPRSembada" target="blank">
-                <Icon path={mdiTwitter} size={2} />
+                <FaXTwitter className="footer-icon" />
               </a>
             </li>
 
             <li>
               <a href="mailto:bprsembada@bprsembada.com">
-                <Icon path={mdiEmailOutline} size={2} />
+                <MdOutlineMail className="footer-icon" />
               </a>
             </li>
           </ul>

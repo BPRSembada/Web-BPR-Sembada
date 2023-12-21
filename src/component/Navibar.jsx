@@ -1,15 +1,15 @@
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "./Navibar.css";
-import Icon from "@mdi/react";
-import { mdiInstagram, mdiTwitter } from "@mdi/js";
 import { Link } from "react-router-dom";
+import { FaXTwitter } from "react-icons/fa6";
+import { IoLogoInstagram } from "react-icons/io5";
 
 const Navibar = () => {
   return (
     <Navbar
       bg="light"
       expand="lg"
-      className="Cont_nav mx-auto px-5 py-0"
+      className="Cont_nav mx-auto px-sm-5 px-2 py-2 main-navbar"
       fixed="top"
     >
       {/* Brand Company */}
@@ -106,13 +106,13 @@ const Navibar = () => {
         {/* Sosial media */}
         <Nav className="bar-sosialmedia">
           <a href="https://twitter.com/BPRSembada">
-            <Icon path={mdiTwitter} size={2} className="icon-navBar" />
+            <FaXTwitter className="icon-navBar" />
           </a>
           <a
             href="https://instagram.com/bpr.sembada?igshid=ZDdkNTZiNTM="
             target="blank"
           >
-            <Icon path={mdiInstagram} size={2} className="icon-navBar" />
+            <IoLogoInstagram className="icon-navBar" />
           </a>
         </Nav>
       </Navbar.Collapse>

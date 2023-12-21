@@ -31,7 +31,7 @@ const KalkulatorKredit = () => {
     if (Tenor === "1") {
       setTenor([1, "1 Bulan"]);
     } else if (Tenor === "3") {
-      setTenor([3, "3 Bulan"]);
+      setTenor([3, "3 Bulan"]); 
     } else if (Tenor === "6") {
       setTenor([6, "6 Bulan"]);
     } else if (Tenor === "12") {

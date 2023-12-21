@@ -118,7 +118,7 @@ const FormSimpanan = () => {
         provinsi: prov,
         kota: kota,
         penempatan_dana: penempatanDana,
-        kategori:"new"
+        kategori: "new",
       };
       Axios.post(`${API_all}/simpanan`, Datas).then((res) => {
         setJenisSimpanan(initialInputValue);
@@ -277,7 +277,12 @@ const FormSimpanan = () => {
           </div>
         </div>
       </form>
-      <Modal show={errorMessage[0]}>
+      <Modal
+        show={errorMessage[0]}
+        data-aos="fade-up"
+        data-aos-duration="500"
+        data-aos-once="true"
+      >
         <Modal.Header>
           <Modal.Title>{errorMessage[2]}</Modal.Title>
         </Modal.Header>

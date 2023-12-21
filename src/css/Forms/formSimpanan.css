@@ -2,11 +2,11 @@
   background-image: url("https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
   background-size: 100% 100%;
   background-position: center;
-  height: 500px;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .cont-form-simpanan {
   margin-block: 4rem;
@@ -15,7 +15,11 @@
   padding-inline: 5rem;
   padding-block: 3rem;
 }
-
+.cont-formss h3 {
+  font-size: 1.8;
+  font-weight: 600;
+  color: #b50b0b;
+}
 .form-pertama {
   display: flex;
   gap: 3rem;
@@ -56,7 +60,15 @@
 .TextErr {
   color: rgb(247, 2, 2);
 }
-
+@media (min-width: 769px) and (max-width: 1200px) {
+  .cont-form-simpanan {
+    margin-block: 1rem;
+    margin-inline: 2rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    /* font-size: 65%; */
+  }
+}
 @media (max-width: 768px) {
   .form-pertama,
   .form-terakhir {
@@ -76,5 +88,18 @@
   .form-item1,
   .form-item2 {
     flex-basis: 100%;
+  }
+}
+@media (min-width: 360px) and (max-width: 479px) {
+  .hero-section-formSimpanan {
+    height: 20rem;
+    margin-top: 2.6rem;
+  }
+  .cont-formss h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .BukaTabungan {
+    font-size: 1.4rem;
   }
 }

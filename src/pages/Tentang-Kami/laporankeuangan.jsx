@@ -6,7 +6,6 @@ const LaporanKeuangan = () => {
   return (
     <div>
       <div className="hero-section-keuangan"></div>
-      <section></section>
       <section className="cont-keuangan">
         <h2>Laporan Keuangan Bank Sembada</h2>
         <Accordion defaultActiveKey="0">

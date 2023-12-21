@@ -107,7 +107,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .cont-kalkulator {
     flex-direction: column;
     padding-inline: 1rem;
@@ -127,6 +127,9 @@
   .calkulator-pinjaman-page p {
     font-size: 1rem;
   }
+  .button-jenis-kredit button {
+    font-size: 1rem;
+  }
   .nameKalk {
     font-size: 1rem;
   }
@@ -135,7 +138,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 479px) {
   .cont-kalkulator {
     flex-direction: column;
     padding-inline: 1rem;
@@ -145,6 +148,9 @@
     display: flex;
     align-items: center;
     margin-inline: auto;
+  }
+  .button-jenis-kredit button {
+    font-size: 0.8rem;
   }
   .calkulator-pinjaman-page {
     margin-inline: 1rem;
