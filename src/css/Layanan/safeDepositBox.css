@@ -210,54 +210,6 @@ ul {
   box-shadow: 2px 2px black;
 }
 
-@media (max-width: 1400px) {
-  /* 
-  -------------------------
-  keterangan SDB
-  -------------------------
-  */
-  .contSdb {
-    margin-block: 5rem;
-    margin-inline: 5rem;
-  }
-  /* 
-  -------------------------
-  keuntungan SDB
-  -------------------------
-  */
-  .keunggulanSdb {
-    padding-inline: 6rem;
-    /* justify-content: space-between; */
-  }
-  .contKeunggulan {
-    padding: 0.5rem;
-    /* background-color: #6c3f3f; */
-  }
-}
-@media (max-width: 1300px) {
-  /* 
-  -------------------------
-  keterangan SDB
-  -------------------------
-  */
-  .contSdb {
-    margin-block: 5rem;
-    margin-inline: 5rem;
-  }
-  /* 
-  -------------------------
-  keuntungan SDB
-  -------------------------
-  */
-  .keunggulanSdb {
-    padding-inline: 6rem;
-    /* justify-content: space-between; */
-  }
-  .contKeunggulan {
-    padding: 0.5rem;
-    /* background-color: #6c3f3f; */
-  }
-}
 @media (min-width: 1200px) and (max-width: 1399px) {
   /* 
   -------------------------
@@ -363,7 +315,7 @@ ul {
     margin-inline: 1.5rem;
   }
 }
-@media (max-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   /* 
   ----------------
   hero section sdb
@@ -424,7 +376,9 @@ ul {
   .sdbCardCont p {
     font-size: 1rem;
   }
-
+  .persyaratan {
+    flex-direction: column;
+  }
   .listSyarat h2,
   .list-harga-SDB .Judul-hargaSDB h2 {
     font-size: 2rem;
@@ -534,7 +488,11 @@ ul {
   .sdbCardCont p {
     font-size: 0.8rem;
   }
-
+  .persyaratan {
+    margin-inline: 1.5rem;
+    flex-direction: column;
+    margin-block: 3rem;
+  }
   .listSyarat h2,
   .list-harga-SDB .Judul-hargaSDB h2 {
     font-size: 2rem;
@@ -576,10 +534,6 @@ ul {
     font-size: 1.5rem;
     text-decoration: none;
     margin-bottom: 1.5rem;
-  }
-
-  .persyaratan {
-    margin-inline: 1.5rem;
   }
 }
 
@@ -642,7 +596,11 @@ ul {
   .sdbCardCont p {
     font-size: 1rem;
   }
-
+  .persyaratan {
+    margin-inline: 1.5rem;
+    flex-direction: column;
+    margin-block: 3rem;
+  }
   .listSyarat h2,
   .list-harga-SDB .Judul-hargaSDB h2 {
     font-size: 2rem;
@@ -684,10 +642,6 @@ ul {
     font-size: 1.5rem;
     text-decoration: none;
     margin-bottom: 1.5rem;
-  }
-
-  .persyaratan {
-    margin-inline: 1.5rem;
   }
 }
 @media (min-width: 360px) and (max-width: 479px) {
@@ -749,7 +703,11 @@ ul {
   .sdbCardCont p {
     font-size: 1rem;
   }
-
+  .persyaratan {
+    margin-inline: 1.5rem;
+    flex-direction: column;
+    margin-block: 3rem;
+  }
   .listSyarat h2,
   .list-harga-SDB .Judul-hargaSDB h2 {
     font-size: 2rem;
@@ -791,9 +749,5 @@ ul {
     font-size: 1.5rem;
     text-decoration: none;
     margin-bottom: 1.5rem;
-  }
-
-  .persyaratan {
-    margin-inline: 1.5rem;
   }
 }

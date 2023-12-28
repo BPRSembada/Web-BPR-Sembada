@@ -1,11 +1,11 @@
 import "../../css/Simpanan/deposito.css";
 import { Button, Accordion } from "react-bootstrap";
-import Icon from "@mdi/react";
-import {
-  mdiShieldAccountVariantOutline,
-  mdiHandshakeOutline,
-  mdiFinance,
-} from "@mdi/js";
+// import Icon from "@mdi/react";
+// import {
+//   mdiShieldAccountVariantOutline,
+//   mdiHandshakeOutline,
+//   mdiFinance,
+// } from "@mdi/js";
 import KalkulatorDeposito from "../../component/KalkulatorDeposito";
 
 import { RiHandCoinLine } from "react-icons/ri";
@@ -105,7 +105,7 @@ const Deposito = () => {
         </div>
       </section>
 
-      <div className="container1">
+      {/* <div className="container1">
         <div className="cont-body">
           <div className="mid-container">
             <h2 data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
@@ -170,7 +170,7 @@ const Deposito = () => {
             <br />
           </div>
         </div>
-      </div>
+      </div> */}
       <section className="fitur-manfaat-prasayart-deposito">
         <div className="cont-fitur-manfaat-kiri">
           <div

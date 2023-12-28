@@ -22,86 +22,68 @@ const EmpatKeunggulan = () => {
     if (valueDoc === "Testimonial") {
       return Testimonial.map((item, ind) => {
         return (
-          <Card
-            style={{ maxWidth: "30rem" }}
-            key={ind}
-            className="cart-keunggulans"
-          >
-            <Card.Img className="img-keunggulan" variant="top" src={item.img} />
-
-            <Card.Body>
-              <Card.Title>{item.title}</Card.Title>
-              <Card.Text>{item.desc}</Card.Text>
-            </Card.Body>
-          </Card>
+          <div className="new-container-testimoni">
+            <div className="testimoni-nasabah">
+              <img src={item.img} alt="" />
+              <div>
+                <h2>{item.title}</h2>
+                <p>{item.profesi}</p>
+              </div>
+            </div>
+            <p>{item.desc}</p>
+          </div>
         );
       });
     } else if (valueDoc === "Kepedulian") {
       return Kepedulian.map((item, ind) => {
         return (
-          <Card
-            style={{ maxWidth: "30rem" }}
-            key={ind}
-            className="cart-keunggulans"
-          >
-            <Card.Img className="img-keunggulan" variant="top" src={item.img} />
-
-            <Card.Body>
-              <Card.Title>{item.title}</Card.Title>
-              <Card.Text>{item.desc}</Card.Text>
-            </Card.Body>
-          </Card>
+          <div className="new-container-keunggulan">
+            <img src={item.img} alt="" />
+            <div className="new-desc-keunggulan">
+              <h2>{item.title}</h2>
+              <p className="hide-text">{item.desc}</p>
+              <input type="checkbox" className="expand-btn" />
+            </div>
+          </div>
         );
       });
     } else if (valueDoc === "SDM Berkualitas") {
       return SdmBerkualitas.map((item, ind) => {
         return (
-          <Card
-            style={{ maxWidth: "30rem" }}
-            key={ind}
-            className="cart-keunggulans"
-          >
-            <Card.Img className="img-keunggulan" variant="top" src={item.img} />
-
-            <Card.Body>
-              <Card.Title>{item.title}</Card.Title>
-              <Card.Text>{item.desc}</Card.Text>
-            </Card.Body>
-          </Card>
+          <div className="new-container-keunggulan">
+            <img src={item.img} alt="" />
+            <div className="new-desc-keunggulan">
+              <h2>{item.title}</h2>
+              <p className="hide-text">{item.desc}</p>
+              <input type="checkbox" className="expand-btn" />
+            </div>
+          </div>
         );
       });
     } else if (valueDoc === "Kolaborasi") {
       return Kolaborasi.map((item, ind) => {
         return (
-          <Card
-            style={{ maxWidth: "30rem" }}
-            key={ind}
-            className="cart-keunggulans"
-          >
-            <Card.Img className="img-keunggulan" variant="top" src={item.img} />
-
-            <Card.Body>
-              <Card.Title>{item.title}</Card.Title>
-              <Card.Text>{item.desc}</Card.Text>
-            </Card.Body>
-          </Card>
+          <div className="new-container-keunggulan">
+            <img src={item.img} alt="" />
+            <div className="new-desc-keunggulan">
+              <h2>{item.title}</h2>
+              <p className="hide-text">{item.desc}</p>
+              <input type="checkbox" className="expand-btn" />
+            </div>
+          </div>
         );
       });
     } else if (valueDoc === "Promosi") {
       return Promosi.map((item, ind) => {
         return (
-          <Card
-            style={{ maxWidth: "30rem" }}
-            key={ind}
-            className="cart-keunggulans"
-          >
-            <Card.Img className="img-keunggulan" variant="top" src={item.img} />
-
-            <Card.Body>
-              <Card.Title>{item.title}</Card.Title>
-              <Card.Text>{item.desc}</Card.Text>
-            </Card.Body>
-          </Card>
+          <div className="new-container-keunggulan">
+            <img src={item.img} alt="" />
+            <div className="new-desc-keunggulan">
+              <h2>{item.title}</h2>
+              <p className="hide-text">{item.desc}</p>
+              <input type="checkbox" className="expand-btn" />
+            </div>
+          </div>
         );
       });
     }

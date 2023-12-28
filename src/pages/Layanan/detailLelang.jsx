@@ -89,8 +89,7 @@ const DetailLelang = () => {
             <div className="cart-keunggulan">
               <IoMdPricetags className="react-icon" />
               <h3>Harga lelang</h3>
-              <Icon path={mdiCashCheck} size={4} className="icon" />
-              <h3>Harga Lelang</h3>
+
               {dataLelang.map((item, index) => {
                 return <p>{item.DetailAset[0].HargaPasar}</p>;
               })}

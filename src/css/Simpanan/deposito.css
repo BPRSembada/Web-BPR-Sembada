@@ -55,69 +55,111 @@ fitur dan manfaat deposito
   width: 50%;
 } */
 
-@media (max-width: 1400px) {
-  .fitur-manfaat-prasayart-deposito {
-    width: 100%;
-    padding-inline: 2rem;
-    padding-block: 5rem;
-    display: flex;
-    align-items: center;
-    gap: 2.5rem;
-  }
-}
-@media (max-width: 1300px) {
-  .fitur-manfaat-prasayart-deposito {
-    width: 100%;
-    padding-inline: 2rem;
-    padding-block: 5rem;
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    gap: 2.5rem;
-  }
-}
-@media (max-width: 1200px) {
-  .features {
-    flex-direction: column;
-    padding: 8rem;
-  }
+@media (max-width: 1200px) and (max-width: 1399px) {
+  /* 
+  -----------------
+  hero sections
+  -----------------
+  */
   .hero-img-tabungan {
-    height: 100vh;
-    /* flex-direction: column; */
+    margin-top: 3rem;
+    height: 32rem;
   }
-}
-@media (max-width: 1100px) {
+  .table-deposito {
+    font-size: 0.8rem;
+    margin: 5rem 7rem 0 0;
+  }
   /* 
   ---------------------------
   fitur prasyarat dan manfaat
   ---------------------------
   */
   .fitur-manfaat-prasayart-deposito {
-    width: 100%;
-    padding-inline: 2rem;
-    padding-block: 5rem;
-    /* background-color: #adb50b; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2.5rem;
-  }
-  .mid-container h2 {
-    font-size: 2.2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .fitur-manfaat-prasayart-deposito {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
     padding-inline: 1.5rem;
     padding-block: 5rem;
   }
+  .site-prasarat-simpanan p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* 
+  -----------------
+  hero sections
+  -----------------
+  */
+  .hero-img-tabungan {
+    margin-top: 2.6rem;
+    height: 23rem;
+  }
+  .table-deposito {
+    font-size: 0.8rem;
+    margin: 5rem 7rem 0 0;
+  }
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-deposito {
+    flex-direction: row;
+    padding-inline: 1rem;
+    padding-block: 3rem;
+  }
+  .site-prasarat-simpanan p {
+    font-size: 1rem;
+  }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  /* 
+  -----------------
+  hero sections
+  -----------------
+  */
+  .hero-img-tabungan {
+    margin-top: 2.6rem;
+    height: 23rem;
+  }
+  .table-deposito {
+    font-size: 0.8rem;
+    margin: 5rem 7rem 0 0;
+  }
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-deposito {
+    flex-direction: row;
+    padding-inline: 1rem;
+    padding-block: 3rem;
+  }
+  .site-prasarat-simpanan p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  /* 
+  -----------------
+  hero sections
+  -----------------
+  */
+  .hero-img-tabungan {
+    margin-top: 2.3rem;
+    height: 23rem;
+  }
+  .table-deposito {
+    font-size: 0.8rem;
+    margin: 5rem 7rem 0 0;
+  }
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
   .fitur-manfaat-prasayart-deposito {
     flex-direction: column;
     align-items: center;
@@ -125,32 +167,8 @@ fitur dan manfaat deposito
     padding-inline: 3rem;
     padding-block: 3rem;
   }
-
-  .site-prasarat-kredit h5 {
-    font-size: 1rem;
-  }
 }
-
-@media (max-width: 360px) {
-  .fitur-manfaat-prasayart-deposito {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-inline: 2rem;
-    padding-block: 2rem;
-  }
-}
-@media (min-width: 481px) and (max-width: 992px) {
-  .hero-img-tabungan {
-    margin-top: 2.8rem;
-    height: 30rem;
-  }
-  .table-deposito {
-    font-size: 0.8rem;
-    margin: 5rem 5rem 0 0;
-  }
-}
-@media (min-width: 360px) and (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 479px) {
   /* 
   -----------------
   hero sections
@@ -163,5 +181,17 @@ fitur dan manfaat deposito
   .table-deposito {
     font-size: 0.7rem;
     margin: 5rem 5rem 0 0;
+  }
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-deposito {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 2rem;
+    padding-block: 2rem;
   }
 }

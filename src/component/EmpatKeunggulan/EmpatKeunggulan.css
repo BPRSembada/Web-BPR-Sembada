@@ -126,9 +126,111 @@
 .slider-detail-card {
   margin-inline: 10rem;
 }
-@media (max-width: 1400px) {
-}
 
+/* 
+--------------------
+cart keunggulan new
+--------------------
+*/
+.new-container-keunggulan {
+  max-width: 25rem;
+  /* height: 40rem; */
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  /* margin-top: 3rem; */
+  overflow: hidden;
+}
+.new-container-keunggulan img {
+  width: 100%;
+}
+.new-desc-keunggulan {
+  margin: 1rem;
+  /* --max-line: 5;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--max-line); */
+}
+.new-desc-keunggulan h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: black;
+}
+.hide-text {
+  --max-line: 5;
+  --line-height: 1.5;
+  max-height: calc(var(--max-line) * 1em * var(--line-height));
+  line-height: var(--line-height);
+  font-size: 1rem;
+  /* font-weight: 600; */
+  overflow: hidden;
+  position: relative;
+}
+.hide-text:has(+ .expand-btn:not(:checked)):before {
+  --trans-height: 5;
+  content: "";
+  position: absolute;
+  height: calc(1em * var(--trans-height));
+  bottom: 0;
+  pointer-events: none;
+  background: linear-gradient();
+}
+.expand-btn {
+  appearance: none;
+  border: 1px solid #b50b0b;
+  padding: 0.4rem;
+  font-weight: 400;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.expand-btn:hover {
+  background-color: #b50b0b;
+  color: white;
+}
+.expand-btn::before {
+  content: "Lihat lebih banyak";
+}
+.expand-btn:checked:before {
+  content: "Sembunyikan";
+}
+.hide-text:has(+ .expand-btn:checked) {
+  max-height: none;
+}
+/* 
+---------------------------------------
+cart keunggulan new testimonial nasabah
+---------------------------------------
+*/
+.new-container-testimoni {
+  max-width: 30rem;
+  /* height: 40rem; */
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  /* margin-top: 3rem; */
+  padding: 1rem;
+}
+.testimoni-nasabah {
+  display: flex;
+  gap: 1rem;
+  /* background-color: aquamarine; */
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.testimoni-nasabah img {
+  width: 9rem;
+  height: 100%;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+.testimoni-nasabah h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+.testimoni-nasabah p {
+  font-size: 1rem;
+}
 @media (min-width: 993px) {
   .cont-showCart {
     /* background-color: #b50b0b; */
@@ -193,7 +295,7 @@
     margin-inline: 2rem;
   }
 }
-@media (max-width: 480px) {
+@media (min -width: 480px) and (max-width: 767px) {
   .cont-showCart {
     /* background-color: #b50b0b; */
     margin-right: 0rem;
@@ -206,24 +308,22 @@
     margin-inline: 2rem;
   }
 }
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 479px) {
   .cont-showCart {
     flex-direction: column;
     gap: 2rem;
     /* margin-inline: 1rem; */
   }
-  .cart-keunggulans {
-    width: 18rem;
+  /* 
+  ---------------------
+  empat keunggulan baru
+  ---------------------
+  */
+  .new-container-keunggulan,
+  .new-container-testimoni {
+    margin-inline: 1rem;
   }
-  .slider-detail-card {
-    margin-inline: 2rem;
-  }
-  .card-title {
-    font-size: 1rem;
-    font-weight: 600;
-    /* color: #b50b0b; */
-  }
-  .card-text {
-    font-size: 0.8rem;
+  .testimoni-nasabah img {
+    width: 7rem;
   }
 }
