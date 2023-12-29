@@ -2,7 +2,7 @@ export const SdmBerkualitas = [
   {
     title: "Morning Enlightment",
     desc: "Setiap pagi sebelum memulai aktivitas bekerja, seluruh karyawan Bank Sembada melakukan aktivitas pencerahan pagi dengan membaca buku motivasi pengembangan diri dan Visi Misi perusahaan.",
-    img: "https://i.ibb.co/MN859W4/morning-Enlightment2.jpg",
+    img: "../empatkeunggulan/SDMBerkualitas/morning.jpg",
   },
   {
     title: "Team Building",
@@ -42,6 +42,17 @@ export const Kepedulian = [
     img: "../empatkeunggulan/Kepedulian/kepedulian1.jpeg",
   },
   {
+    title: "Perayaan Natal Bersama di Asean Tower",
+    desc: "Dalam rangka perayaan natal bersama seluruh karyawan dan staff yang merayakan natal di Asean Tower, Bank Sembada ikut berpartisipasi dalam pelayanan yang ada.",
+    img: "../empatkeunggulan/Kepedulian/aseantower_natal.jpg",
+  },
+  {
+    title:
+      "Partisipasi BPR Sembada dalam perayaan Natal di Lapas Pemuda Tangerang",
+    desc: "Dalam rangka merayakan hari natal, BPR Sembada ikut berbagi kebahagiaan dalam sukacita natal di Lapas Pemuda Tangerang, juga membagikan bingkisan sebagai kenang-kenangan.",
+    img: "../empatkeunggulan/Kepedulian/lapas_natal.png",
+  },
+  {
     title:
       "Bulan Inklusi Keuangan Bank Sembada : Akses keuangan merata, masyarakat sejahtera",
     desc: "Dalam rangka melaksanakan Bulan Inklusi Keuangan, Bank Sembada melaksanakan literasi keuangan dengan tema “Akses keuangan merata, masyarakat sejahtera”. Dengan fokus pada akses keuangan yang merata, Bank Sembada berupaya untuk mengurangi kesenjangan finansial, mendukung pertumbuhan ekonomi yang inklusif, sehingga menciptakan masyarakat yang lebih sejahtera. Melalui program-program edukasi, pelayanan yang ramah, serta inovasi teknologi keuangan, Bank Sembada berkomitmen untuk membantu masyarakat mendapatkan manfaat penuh dari sistem keuangan yang adil dan merata, sehingga mereka dapat membangun masa depan yang lebih cerah.",
@@ -70,6 +81,12 @@ export const Kolaborasi = [
     title: "Kolaborasi dengan Fintech Komunal P2P",
     desc: "Kerjasama Deposito Channeling Komunal dan Bank Sembada siap melayani seluruh masyarakat Indonesia untuk meningkatkan pelayanan kepada nasabah serta memperluas akses keuangan bagi masyarakat, Bank Sembada bekolaborasi berama Komunal dalam hal penempatan deposito. Hal ini telah mendapatkan persetujuan dari Otoritas Jasa Keuangan (OJK). Dengan adanya layanan tersebut, para Nasabah / Deposan di seluruh Indonesia dapat melakukan penempatan dana deposito dengan nyaman, cepat dan praktis melalui portal website Komunal.",
     img: "../empatkeunggulan/Kolaborasi/Komunal.jpeg",
+  },
+  {
+    title:
+      "Peran Bank Sembada dalam memimpin sindikasi dengan total pendanaan Rp. 9.5 Miliar bersama 7 BPR lainnya",
+    desc: "Bank Sembada memimpin sindikasi kredit bersama 7 BPR lainnya sukses menyalurkan pendanaan kredit modal kerja kepada PT Paskomnas Niaga Utama sebesar total 9.5 Miliar yang bergerak di bidang jaringan pasar induk penyedia sayur dan buah nasional. Melalui pendanaan ini, perusahaan diharpkan dapat melakukan expansi bisnis usaha dan terus bertumbuh untuk mensuplai kebutuhan sayur dan buah dalam negeri.",
+    img: "../empatkeunggulan/Kolaborasi/sindikasi_pt_paskomnas.jpeg",
   },
 
   // {

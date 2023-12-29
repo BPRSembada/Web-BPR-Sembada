@@ -127,6 +127,7 @@ cart keunggulan new
 */
 .new-container-keunggulan {
   max-width: 25rem;
+
   /* height: 40rem; */
   border-radius: 0.5rem;
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
@@ -135,6 +136,7 @@ cart keunggulan new
 }
 .new-container-keunggulan img {
   width: 100%;
+  min-height: 20rem;
 }
 .new-desc-keunggulan {
   margin: 1rem;
