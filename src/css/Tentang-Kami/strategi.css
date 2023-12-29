@@ -84,14 +84,16 @@
   }
 }
 
-@media (max-width: 480px) and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .hero-section-strategi {
     height: 25rem;
   }
   .container-strategi {
+    flex-direction: column;
   }
   .strategi {
     padding: 0.5rem;
+    /* background-color: #b50b0b; */
   }
   .strategi h2 {
     font-size: 2rem;
@@ -109,6 +111,7 @@
     height: 22rem;
   }
   .container-strategi {
+    flex-direction: column;
   }
   .strategi {
     padding: 0.5rem;

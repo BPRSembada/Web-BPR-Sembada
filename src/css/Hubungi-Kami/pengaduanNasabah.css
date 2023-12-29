@@ -157,6 +157,9 @@
   .cont-cara-pengaduan div li {
     font-size: 1rem;
   }
+  .cont-cara-pengaduan img {
+    width: 100%;
+  }
   .cont-langkah-pengaduan {
     height: 15rem;
   }
@@ -187,6 +190,9 @@
   }
   .cont-cara-pengaduan div li {
     font-size: 1rem;
+  }
+  .cont-cara-pengaduan img {
+    width: 100%;
   }
   .cont-langkah-pengaduan {
     height: 15rem;

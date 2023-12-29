@@ -43,7 +43,7 @@ const Strategi = () => {
           <h2 data-aos="fade-left" data-aos-once="true">
             Transformasi Budaya
           </h2>
-         
+
           <ol data-aos="fade-left" data-aos-once="true">
             <li>
               Mewujudkan budaya yang terus maju dan bertumbuh dengan

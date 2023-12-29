@@ -1,3 +1,8 @@
+/* 
+-------------------
+slider keunggulan 
+-------------------
+*/
 .container-project {
   height: 15rem;
   background-color: #b50b0b;
@@ -57,7 +62,11 @@
 .container-project:hover .disc {
   bottom: 0;
 }
-
+/* 
+--------------------------
+main container keunggulan
+--------------------------
+*/
 .container-projects {
   width: 80%;
   max-width: 1280px;
@@ -102,28 +111,12 @@
   color: #b50b0b;
 }
 
-.img-keunggulan {
-  /* object-fit: cover; */
-  object-position: center;
-  height: 25rem;
-}
 .cont-showCart {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
   /* align-items: center; */
   justify-content: center;
-  margin-inline: 10rem;
-}
-.card-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  /* color: #b50b0b; */
-}
-.card-text {
-  font-size: 1rem;
-}
-.slider-detail-card {
   margin-inline: 10rem;
 }
 
@@ -199,10 +192,10 @@ cart keunggulan new
   max-height: none;
 }
 /* 
----------------------------------------
-cart keunggulan new testimonial nasabah
----------------------------------------
-*/
+  --------------------------------------
+  empat keunggulan baru bagian testimoni
+  --------------------------------------
+  */
 .new-container-testimoni {
   max-width: 30rem;
   /* height: 40rem; */
@@ -231,97 +224,83 @@ cart keunggulan new testimonial nasabah
 .testimoni-nasabah p {
   font-size: 1rem;
 }
-@media (min-width: 993px) {
+
+@media (min-width: 1200px) and (max-width: 1399px) {
   .cont-showCart {
     /* background-color: #b50b0b; */
-    margin-inline: 2rem;
-  }
-  .cart-keunggulans {
-    width: 25rem;
-  }
-  .img-keunggulan {
-    height: 25rem;
-    object-position: center;
-  }
-  .slider-detail-card {
-    margin-inline: 2rem;
+    margin-inline: 1rem;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .cont-showCart {
     /* background-color: #b50b0b; */
-    margin-inline: 2rem;
-  }
-  .cart-keunggulans {
-    width: 25rem;
-  }
-  .img-keunggulan {
-    height: 25rem;
-    object-position: center;
-  }
-  .slider-detail-card {
-    margin-inline: 2rem;
+    margin-inline: 0.5rem;
   }
 }
-@media (min-width: 800px) and (max-width: 901px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .cont-showCart {
-    /* background-color: #b50b0b; */
-    margin-inline: 3rem;
+    /* justify-content: center; */
+    margin-inline: 0rem;
   }
-  .cart-keunggulans {
-    width: 20rem;
+  /* 
+  --------------------------------------
+  empat keunggulan baru bagian testimoni
+  --------------------------------------
+  */
+  .new-container-testimoni {
+    max-width: 21rem;
   }
-  .img-keunggulan {
-    height: 20rem;
-    object-position: center;
+  .new-container-keunggulan,
+  .new-container-testimoni {
+    margin-inline: 0rem;
   }
-  .slider-detail-card {
-    margin-inline: 2rem;
+  .testimoni-nasabah img {
+    width: 5rem;
   }
-}
-@media (min-width: 768px) and (max-width: 799px) {
-  .cont-showCart {
-    /* background-color: #b50b0b; */
-    margin-inline: 3rem;
-  }
-  .cart-keunggulans {
-    width: 20rem;
-  }
-  .img-keunggulan {
-    height: 20rem;
-    object-position: center;
-  }
-  .slider-detail-card {
-    margin-inline: 2rem;
+  /* 
+  --------------------------------------
+  empat keunggulan baru bagian general
+  --------------------------------------
+  */
+  .new-container-keunggulan {
+    max-width: 21rem;
   }
 }
-@media (min -width: 480px) and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .cont-showCart {
     /* background-color: #b50b0b; */
     margin-right: 0rem;
     margin-left: 0rem;
+    flex-direction: column;
+    gap: 2rem;
   }
-  .cart-keunggulans {
-    width: 23rem;
+  /* 
+  --------------------------------------
+  empat keunggulan baru bagian testimoni
+  --------------------------------------
+  */
+  .new-container-keunggulan,
+  .new-container-testimoni {
+    margin-inline: 1rem;
   }
-  .slider-detail-card {
-    margin-inline: 2rem;
+  .testimoni-nasabah img {
+    width: 7rem;
   }
 }
 @media (min-width: 360px) and (max-width: 479px) {
   .cont-showCart {
     flex-direction: column;
     gap: 2rem;
-    /* margin-inline: 1rem; */
+    margin-inline: 1rem;
   }
   /* 
-  ---------------------
-  empat keunggulan baru
-  ---------------------
+  --------------------------------------
+  empat keunggulan baru bagian testimoni
+  --------------------------------------
   */
   .new-container-keunggulan,
   .new-container-testimoni {
-    margin-inline: 1rem;
+    margin-inline: 0rem;
   }
   .testimoni-nasabah img {
     width: 7rem;
