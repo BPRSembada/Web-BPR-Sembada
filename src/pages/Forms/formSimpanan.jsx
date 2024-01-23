@@ -296,6 +296,37 @@ const FormSimpanan = () => {
           </Button>
         </Modal.Footer>
       </Modal>
+      <section>
+        import React from ‘react’;
+        <div>
+          <p>Cepat</p>
+          <p>
+            Proses pengajuan aplikasi mudah dan nyaman,
+            <br />
+            ajukan online dan data Anda dapat kami jemput,
+            <br />
+            sehingga dana Anda cepat cair.
+          </p>
+          <p>Aman</p>
+          <p>
+            Dikelola oleh tim profesional, Bank Sembada
+            <br />
+            merupakan lembaga jasa keuangan yang
+            <br />
+            berizin dan diawasi oleh OJK (Otoritas Jasa
+            <br />
+            Keuangan).
+          </p>
+          <p>Mudah</p>
+          <p>
+            Persyaratan mudah dan tidak berbelit-belit
+            <br />
+            untuk mendapatkan persetujuan pinjaman,
+            <br />
+            serta jangka waktu pinjaman s/d. 10 tahun.
+          </p>
+        </div>
+      </section>
     </div>
   );
 };
