@@ -225,13 +225,7 @@ const SaveDepositBox = () => {
           </section>
         </div>
       </section>
-      <div
-        className="list-harga-SDB"
-        div
-        data-aos="fade-out"
-        data-aos-delay="300"
-        data-aos-once="true"
-      ></div>
+
       <section className="link-to-formsdb">
         <a href="/formSDB" className="btn-to-formsdb">
           {" "}
