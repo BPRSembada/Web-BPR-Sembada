@@ -12,6 +12,97 @@ const LaporanKeuangan = () => {
           <Accordion.Item eventKey="3">
             <Accordion.Header>Laporan Keuangan 2023</Accordion.Header>
             <Accordion.Body>
+            <div className="list-lap-keuangan">
+                <Icon
+                  path={mdiClipboardTextOutline}
+                  size={2}
+                  className="list-icon"
+                />
+                <div>
+                  <p>Laporan Desember 2023</p>
+                  <h3>Laporan Posisi Keuangan</h3>
+                </div>
+                <a
+                  href="LKPK-LKP-01-Desember2023.pdf"
+                  download="LKPK-LKP-01-Desember2023.pdf"
+                >
+                  <button>Download</button>
+                </a>
+              </div>
+              <br />
+              <div className="list-lap-keuangan">
+                <Icon
+                  path={mdiClipboardTextOutline}
+                  size={2}
+                  className="list-icon"
+                />
+                <div>
+                  <p>Laporan Desember 2023</p>
+                  <h3>Laporan Laba Rugi</h3>
+                </div>
+                <a
+                  href="LKPK-LKP-02-Desember2023.pdf"
+                  download="LKPK-LKP-02-Desember2023.pdf"
+                >
+                  <button>Download</button>
+                </a>
+              </div>
+              <br />
+              <div className="list-lap-keuangan">
+                <Icon
+                  path={mdiClipboardTextOutline}
+                  size={2}
+                  className="list-icon"
+                />
+                <div>
+                  <p>Laporan Desember 2023</p>
+                  <h3>Laporan Kualitas Aset Produktif</h3>
+                </div>
+                <a
+                  href="LKPK-LKP-03-Desember2023.pdf"
+                  download="LKPK-LKP-03-Desember2023.pdf"
+                >
+                  <button>Download</button>
+                </a>
+              </div>
+
+              <br />
+              <div className="list-lap-keuangan">
+                <Icon
+                  path={mdiClipboardTextOutline}
+                  size={2}
+                  className="list-icon"
+                />
+                <div>
+                  <p>Laporan Desember 2023</p>
+                  <h3>Laporan Komitmen dan Kontinjensi</h3>
+                </div>
+                <a
+                  href="LKPK-LKP-04-Desember2023.pdf"
+                  download="LKPK-LKP-04-Desember2023.pdf"
+                >
+                  <button>Download</button>
+                </a>
+              </div>
+              <br />
+              <div className="list-lap-keuangan">
+                <Icon
+                  path={mdiClipboardTextOutline}
+                  size={2}
+                  className="list-icon"
+                />
+                <div>
+                  <p>Laporan Desember 2023</p>
+                  <h3>Laporan Informasi Lainnya</h3>
+                </div>
+                <a
+                  href="LKPK-LKP-05-Desember2023.pdf"
+                  download="LKPK-LKP-05-Desember2023.pdf"
+                >
+                  <button>Download</button>
+                </a>
+              </div>
+              <br />
               <div className="list-lap-keuangan">
                 <Icon
                   path={mdiClipboardTextOutline}
