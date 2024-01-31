@@ -8,9 +8,7 @@ const SaveDepositBox = () => {
       <div className="hero-section-sdb"></div>
 
       <section className="contSdb">
-        <h2>
-          <i>Segera Hadir Layanan Safe Deposit Box</i>
-        </h2>
+        <h2>Layanan Safe Deposit Box</h2>
         <p
           div
           data-aos="zoom-in-up"
