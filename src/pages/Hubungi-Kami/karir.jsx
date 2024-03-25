@@ -54,11 +54,15 @@ const Karir = () => {
                   </Accordion>
                 </div>
                 <div className="button_hrd">
-                  <Button href="https://wa.me/62818676898" variant="danger" className="item_button_hrd">
+                  <Button
+                    href="https://wa.me/62818676898"
+                    variant="danger"
+                    className="item_button_hrd"
+                  >
                     Hubungi HRD
                   </Button>
                   <Button href="mailto:eddy@bprsembada.com" variant="warning">
-                    Kririm CV Melalui Email
+                    Kirim CV Melalui Email
                   </Button>
                 </div>
               </div>

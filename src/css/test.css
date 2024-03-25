@@ -1,14 +1,14 @@
 .newHeroHome {
   margin-bottom: 5rem;
   margin-top: 3rem;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 .car-hero-new {
-  height: 80vh;
+  /* height: 80vh; */
 }
 .img-car-new {
-  height: 80vh;
+  /* height: 80vh; */
   width: 100%;
 }
 
@@ -27,14 +27,14 @@
 @media (max-width: 920px) {
   .newHeroHome {
     margin-bottom: 5rem;
-    height: 60vh;
+    /* height: 60vh; */
   }
 
   .car-hero-new {
-    height: 60vh;
+    /* height: 60vh; */
   }
   .img-car-new {
-    height: 60vh;
+    /* height: 60vh; */
     width: 100%;
   }
 
@@ -54,14 +54,14 @@
 @media (max-width: 768px) {
   .newHeroHome {
     margin-bottom: 5rem;
-    height: 50vh;
+    /* height: 50vh; */
   }
 
   .car-hero-new {
-    height: 50vh;
+    /* height: 50vh; */
   }
   .img-car-new {
-    height: 50vh;
+    /* height: 50vh; */
     width: 100%;
   }
 
@@ -81,14 +81,14 @@
 @media (max-width: 556px) {
   .newHeroHome {
     margin-bottom: 5rem;
-    height: 40vh;
+    /* height: 40vh; */
   }
 
   .car-hero-new {
-    height: 40vh;
+    /* height: 40vh; */
   }
   .img-car-new {
-    height: 40vh;
+    /* height: 40vh; */
     width: 100%;
   }
 
@@ -109,14 +109,14 @@
 @media (max-width: 320px) {
   .newHeroHome {
     margin-bottom: 5rem;
-    height: 30vh;
+    /* height: 30vh; */
   }
 
   .car-hero-new {
-    height: 30vh;
+    /* height: 30vh; */
   }
   .img-car-new {
-    height: 30vh;
+    /* height: 30vh; */
     width: 100%;
   }
 

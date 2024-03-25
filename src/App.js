@@ -7,7 +7,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import SideMenu from "./component/SideMenu";
-
+// test corousel home
+import HomeCarousel from "./component/carousel/home_carousel";
 // import All Page
 import Home from "./pages/home";
 // import Footers from "./component/Footers";
@@ -45,6 +46,8 @@ import Deposito from "./pages/Simpanan/deposito";
 
 import LelangPage from "./pages/Layanan/lelang";
 import DetailLelang from "./pages/Layanan/detailLelang";
+
+// sweeper
 
 class App extends React.Component {
   componentDidMount() {
@@ -84,6 +87,7 @@ class App extends React.Component {
           <Route path="/formKredit" element={<FormKredit />} />
           <Route path="/lelangPage" element={<LelangPage />} />
           <Route path="/detailLelang" element={<DetailLelang />} />
+          <Route path="/HC" element={<HomeCarousel />} />
         </Routes>
         {/* <Footers /> */}
         <NewFooter />

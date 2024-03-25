@@ -296,7 +296,7 @@ const FormSimpanan = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-      <section>
+      {/* <section>
         import React from ‘react’;
         <div>
           <p>Cepat</p>
@@ -326,7 +326,7 @@ const FormSimpanan = () => {
             serta jangka waktu pinjaman s/d. 10 tahun.
           </p>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
