@@ -65,6 +65,30 @@ const StrukturOrgn = () => {
   return (
     <div>
       <div className="hero-section-struktur"></div>
+      <div className="cont-pesan-ceo">
+        <img src="../Direksi_manajemen/Sandi_.jpg" alt="" />
+        <div>
+          <h2>Pesan Direktur Utama</h2>
+          <p>
+            Bank Sembada mengukir jejak baru sejak Januari 2022, meraih tongkat
+            estafet keunggulan setelah diakuisisi oleh PT. Hakimputra Perkasa.
+            Bersama manajemen baru, dengan menerapkan nilkai-nilai{" "}
+            <span>“TULUS” </span>
+            kepada seluruh nasabah dan mengusung budaya baru yang berorientasi
+            pada kualitas layanan.
+          </p>
+          <p>
+            Dengan semangat menjadi Bank Perekonomian Rakyat pilihan utama
+            solusi layanan perbankan di Jakarta Pusat, kami mencatat pertumbuhan
+            pesat disertai dengan inovasi yang didukung teknologi informasi dan
+            kualitas sumber daya manusia berkompeten.
+          </p>
+          <p>
+            Bersama Bank Sembada kita ciptakan ekonomi kerakyatan yang lebih
+            unggul dan masa depan finansial lebih cerah.
+          </p>
+        </div>
+      </div>
 
       <div className="cont-profil-SDM">
         <h2>Profil Manajemen Bank Sembada</h2>

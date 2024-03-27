@@ -15,6 +15,35 @@ hero struktur organisasi
 }
 /* 
 ------------
+pesan CEO
+------------
+*/
+.cont-pesan-ceo {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 2rem;
+  margin-inline: 8rem;
+}
+.cont-pesan-ceo img {
+  width: 30rem;
+}
+.cont-pesan-ceo div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.cont-pesan-ceo h2 {
+  font-size: 2.4rem;
+  color: #b50b0b;
+
+  font-weight: 600;
+}
+.cont-pesan-ceo p {
+  font-size: 1.4rem;
+}
+/* 
+------------
 cart profile
 ------------
 */
@@ -115,11 +144,37 @@ batas
 }
 
 @media (max-width: 1200px) {
+  .cont-pesan-ceo {
+    /* flex-direction: column; */
+    margin-inline: 3rem;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+  }
+  .cont-pesan-ceo img {
+    width: 20rem;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .hero-section-struktur {
     height: 30rem;
     margin-top: 2.8rem;
+  }
+  .cont-pesan-ceo {
+    /* flex-direction: column; */
+    margin-inline: 1rem;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+  }
+  .cont-pesan-ceo img {
+    width: 15rem;
+  }
+  .cont-pesan-ceo h2 {
+    font-size: 2rem;
+  }
+  .cont-pesan-ceo p {
+    font-size: 1.1rem;
   }
   .cont-profil-SDM {
     margin-top: 3rem;
@@ -146,6 +201,22 @@ batas
     height: 28rem;
     margin-top: 2.8rem;
   }
+  .cont-pesan-ceo {
+    /* flex-direction: column; */
+    margin-inline: 1rem;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+  }
+  .cont-pesan-ceo img {
+    width: 15rem;
+  }
+  .cont-pesan-ceo h2 {
+    font-size: 2rem;
+  }
+  .cont-pesan-ceo p {
+    font-size: 1rem;
+  }
   .cont-profil-SDM {
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -171,6 +242,22 @@ batas
     height: 23rem;
     margin-top: 2.6rem;
   }
+  .cont-pesan-ceo {
+    flex-direction: column;
+    margin-inline: 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .cont-pesan-ceo img {
+    width: 25rem;
+  }
+  .cont-pesan-ceo h2 {
+    font-size: 2rem;
+  }
+  .cont-pesan-ceo p {
+    font-size: 1rem;
+  }
   .cont-profil-SDM {
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -192,6 +279,22 @@ batas
   }
 }
 @media (min-width: 360px) and (max-width: 479px) {
+  .cont-pesan-ceo {
+    flex-direction: column;
+    margin-inline: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .cont-pesan-ceo img {
+    width: 20rem;
+  }
+  .cont-pesan-ceo h2 {
+    font-size: 2rem;
+  }
+  .cont-pesan-ceo p {
+    font-size: 1rem;
+  }
   .hero-section-struktur {
     height: 23rem;
     margin-top: 2.6rem;

@@ -1,8 +1,6 @@
 import React from "react";
 import "../../component/carousel/home_carousel.css";
 import SelectorHome from "../Hero/Selector";
-import { Carousel } from "react-bootstrap";
-import Coba from "./sweeper";
 
 const HomeCarousel = () => {
   return (
@@ -26,7 +24,6 @@ const HomeCarousel = () => {
           </div>
         </div>
       </div>
-      <Coba />
     </div>
   );
 };
